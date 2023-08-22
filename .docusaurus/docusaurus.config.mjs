@@ -27,11 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/"
         },
         "theme": {
           "customCss": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/src/css/custom.css"
@@ -42,9 +38,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Trackpac Docs",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Trackpac",
         "src": "img/logo.svg"
       },
       "items": [
@@ -55,12 +51,7 @@ export default {
           "label": "Tutorial"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/trackpac-ltd/docs.trackpac.io",
           "label": "GitHub",
           "position": "right"
         }
