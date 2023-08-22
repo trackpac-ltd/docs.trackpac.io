@@ -48,7 +48,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Tutorials"
         },
         {
           "href": "https://github.com/trackpac-ltd/docs.trackpac.io",
@@ -65,7 +65,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Tutorials",
               "to": "/docs/intro"
             }
           ]
