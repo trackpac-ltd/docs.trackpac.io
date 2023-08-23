@@ -118,6 +118,8 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/",
               },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Trackpac Ltd.`,
       },
