@@ -2,18 +2,10 @@
 sidebar_position: 1
 ---
 
-# Getting Started Guide
+# Introduction
 
-Let's get started with **Trackpac in less than 5 minutes**.
+## What is Trackpac?
 
-Get started by **creating a new account**.
+Trackpac is an IoT Dashboard management system to manage, monitor and alert on changes to IoT devices, these could be trackers, temperature, humditiy, level reading or any kind of data that can be measured via a sensor.
 
-Headover to [https://v2.trackpac.io](https://v2.trackpac.io) and sign up for an account.
-
-You can sign in with username and password, or choose to login via your Google account.
-
-## Add a Device
-
-## Add an Organisation
-
-## Manage Billing
+Trackpacs system allows you to easily add devices, manage data and actions on that data. We built Trackpac from the ground up

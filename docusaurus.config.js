@@ -45,6 +45,7 @@ const config = {
           editUrl:
             "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/",
         },
+
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -68,12 +69,11 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorials",
+            label: "Docs",
           },
-
           {
-            href: "https://github.com/trackpac-ltd/docs.trackpac.io",
-            label: "GitHub",
+            href: "https://v2.trackpac.io",
+            label: "Trackpac Login",
             position: "right",
           },
         ],
@@ -100,6 +100,23 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/trackpacio",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Trackpac",
+                href: "https://trackpac.io",
+              },
+              {
+                label: "App Login",
+                href: "https://v2.trackpac.io",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/",
               },
             ],
           },
