@@ -1,0 +1,27 @@
+{
+  "unversionedId": "add-an-action",
+  "id": "add-an-action",
+  "title": "Add an Action",
+  "description": "Use this guide to set up a new action that triggers alerts or forwards data based on various conditions.",
+  "source": "@site/docs/add-an-action.md",
+  "sourceDirName": ".",
+  "slug": "/add-an-action",
+  "permalink": "/docs/add-an-action",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/add-an-action.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add a Geofence",
+    "permalink": "/docs/add-a-geofence"
+  },
+  "next": {
+    "title": "Organisations",
+    "permalink": "/docs/organisations"
+  }
+}

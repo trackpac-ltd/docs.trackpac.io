@@ -186,16 +186,40 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-0e2": {
+  "/docs-1a5": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-995-99c"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
+  "/docs/add-a-contact-d4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-add-a-contact-288-e5f"
+  },
+  "/docs/add-a-geofence-6e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-add-a-geofence-215-dce"
+  },
+  "/docs/add-an-action-7d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-add-an-action-16-d-98d"
+  },
+  "/docs/getting-started-guide-fe2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-guide-97-b-e43"
+  },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/managing-a-device-189": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-managing-a-deviceef-7-805"
+  },
+  "/docs/organisations-8e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-organisationsfc-2-c65"
   },
   "/-8b3": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

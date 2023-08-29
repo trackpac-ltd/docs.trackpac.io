@@ -11,17 +11,89 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Getting Started Guide",
+        "label": "Introduction",
         "href": "/docs/intro",
         "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Getting Started Guide",
+        "href": "/docs/getting-started-guide",
+        "docId": "getting-started-guide"
+      },
+      {
+        "type": "link",
+        "label": "Add a Contact",
+        "href": "/docs/add-a-contact",
+        "docId": "add-a-contact"
+      },
+      {
+        "type": "link",
+        "label": "Add a Geofence",
+        "href": "/docs/add-a-geofence",
+        "docId": "add-a-geofence"
+      },
+      {
+        "type": "link",
+        "label": "Add an Action",
+        "href": "/docs/add-an-action",
+        "docId": "add-an-action"
+      },
+      {
+        "type": "link",
+        "label": "Organisations",
+        "href": "/docs/organisations",
+        "docId": "organisations"
+      },
+      {
+        "type": "link",
+        "label": "Managing a Device",
+        "href": "/docs/managing-a-device",
+        "docId": "managing-a-device"
       }
     ]
   },
   "docs": {
+    "add-a-contact": {
+      "id": "add-a-contact",
+      "title": "Add a Contact",
+      "description": "Follow these simple steps to add a new contact to your account for receiving alerts or notifications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "add-a-geofence": {
+      "id": "add-a-geofence",
+      "title": "Add a Geofence",
+      "description": "Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "add-an-action": {
+      "id": "add-an-action",
+      "title": "Add an Action",
+      "description": "Use this guide to set up a new action that triggers alerts or forwards data based on various conditions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started-guide": {
+      "id": "getting-started-guide",
+      "title": "Getting Started Guide",
+      "description": "Welcome to our platform! This guide will walk you through the essential steps to get you up and running.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Getting Started Guide",
-      "description": "Let's get started with Trackpac in less than 5 minutes.",
+      "title": "Introduction",
+      "description": "What is Trackpac?",
+      "sidebar": "tutorialSidebar"
+    },
+    "managing-a-device": {
+      "id": "managing-a-device",
+      "title": "Managing a Device",
+      "description": "Our platform aims to provide an intuitive user experience while accommodating a variety of device types, each with unique features and capabilities. Whether you're monitoring a temperature sensor or a tracking device, the necessary data is displayed in an organized and customizable manner.",
+      "sidebar": "tutorialSidebar"
+    },
+    "organisations": {
+      "id": "organisations",
+      "title": "Organisations",
+      "description": "The Organisations feature provides a structured way to manage multiple devices based on varying criteria such as projects, customer groups, or locations. This allows for easier management of contacts, actions, and geofences, while also permitting you to grant access to multiple members.",
       "sidebar": "tutorialSidebar"
     }
   }

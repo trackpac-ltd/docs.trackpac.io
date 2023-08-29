@@ -48,11 +48,11 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorials"
+          "label": "Docs"
         },
         {
-          "href": "https://github.com/trackpac-ltd/docs.trackpac.io",
-          "label": "GitHub",
+          "href": "https://v2.trackpac.io",
+          "label": "Trackpac Login",
           "position": "right"
         }
       ],
@@ -80,6 +80,23 @@ export default {
             {
               "label": "Twitter",
               "href": "https://twitter.com/trackpacio"
+            }
+          ]
+        },
+        {
+          "title": "More",
+          "items": [
+            {
+              "label": "Trackpac",
+              "href": "https://trackpac.io"
+            },
+            {
+              "label": "App Login",
+              "href": "https://v2.trackpac.io"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/"
             }
           ]
         }
