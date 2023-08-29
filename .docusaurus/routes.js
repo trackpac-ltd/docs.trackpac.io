@@ -99,11 +99,47 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0e2'),
+    component: ComponentCreator('/docs', '1a5'),
     routes: [
+      {
+        path: '/docs/add-a-contact',
+        component: ComponentCreator('/docs/add-a-contact', 'd4e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/add-a-geofence',
+        component: ComponentCreator('/docs/add-a-geofence', '6e7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/add-an-action',
+        component: ComponentCreator('/docs/add-an-action', '7d8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/getting-started-guide',
+        component: ComponentCreator('/docs/getting-started-guide', 'fe2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/managing-a-device',
+        component: ComponentCreator('/docs/managing-a-device', '189'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/organisations',
+        component: ComponentCreator('/docs/organisations', '8e4'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

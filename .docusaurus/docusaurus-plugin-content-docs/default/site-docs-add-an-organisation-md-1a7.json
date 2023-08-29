@@ -1,0 +1,20 @@
+{
+  "unversionedId": "add-an-organisation",
+  "id": "add-an-organisation",
+  "title": "add-an-organisation",
+  "description": "",
+  "source": "@site/docs/add-an-organisation.md",
+  "sourceDirName": ".",
+  "slug": "/add-an-organisation",
+  "permalink": "/docs/add-an-organisation",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/add-an-organisation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add an Action",
+    "permalink": "/docs/add-an-action"
+  }
+}

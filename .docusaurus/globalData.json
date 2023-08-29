@@ -11,8 +11,38 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "add-a-contact",
+              "path": "/docs/add-a-contact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "add-a-geofence",
+              "path": "/docs/add-a-geofence",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "add-an-action",
+              "path": "/docs/add-an-action",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started-guide",
+              "path": "/docs/getting-started-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "managing-a-device",
+              "path": "/docs/managing-a-device",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "organisations",
+              "path": "/docs/organisations",
               "sidebar": "tutorialSidebar"
             }
           ],

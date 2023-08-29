@@ -17,9 +17,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/getting-started-guide"
           >
-            New to Trackpac? Read our getting started guide here
+            Getting Started Guide
           </Link>
         </div>
       </div>

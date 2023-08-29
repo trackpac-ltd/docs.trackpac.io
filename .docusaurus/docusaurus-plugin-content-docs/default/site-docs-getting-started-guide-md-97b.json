@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started-guide",
+  "id": "getting-started-guide",
+  "title": "Getting Started Guide",
+  "description": "Welcome to our platform! This guide will walk you through the essential steps to get you up and running.",
+  "source": "@site/docs/getting-started-guide.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started-guide",
+  "permalink": "/docs/getting-started-guide",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Add a Contact",
+    "permalink": "/docs/add-a-contact"
+  }
+}
