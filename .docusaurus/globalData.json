@@ -8,46 +8,51 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "introduction",
           "docs": [
             {
-              "id": "add-a-contact",
-              "path": "/docs/add-a-contact",
+              "id": "device-guides/index",
+              "path": "/docs/device-guides/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "add-a-geofence",
-              "path": "/docs/add-a-geofence",
+              "id": "device-guides/rak-sticker-guide",
+              "path": "/docs/device-guides/rak-sticker-guide",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "add-an-action",
-              "path": "/docs/add-an-action",
+              "id": "getting-started/add-a-contact",
+              "path": "/docs/getting-started/add-a-contact",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started-guide",
-              "path": "/docs/getting-started-guide",
+              "id": "getting-started/add-a-geofence",
+              "path": "/docs/getting-started/add-a-geofence",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "getting-started/add-an-action",
+              "path": "/docs/getting-started/add-an-action",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "managing-a-device",
-              "path": "/docs/managing-a-device",
+              "id": "getting-started/index",
+              "path": "/docs/getting-started/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "organisations",
-              "path": "/docs/organisations",
+              "id": "getting-started/manage-organisations",
+              "path": "/docs/getting-started/manage-organisations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rak-sticker-guide",
-              "path": "/docs/rak-sticker-guide",
+              "id": "getting-started/managing-a-device",
+              "path": "/docs/getting-started/managing-a-device",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/docs/introduction",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -55,8 +60,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/introduction",
+                "label": "Introduction"
               }
             }
           }

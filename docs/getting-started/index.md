@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Getting Started Guide
 
 Welcome to our platform! This guide will walk you through the essential steps to get you up and running.
