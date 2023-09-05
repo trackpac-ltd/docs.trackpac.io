@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1a5'),
+    component: ComponentCreator('/docs', '553'),
     routes: [
       {
         path: '/docs/add-a-contact',
@@ -140,6 +140,12 @@ export default [
       {
         path: '/docs/organisations',
         component: ComponentCreator('/docs/organisations', '8e4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/rak-sticker-guide',
+        component: ComponentCreator('/docs/rak-sticker-guide', '553'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

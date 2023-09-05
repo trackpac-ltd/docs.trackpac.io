@@ -44,6 +44,11 @@
               "id": "organisations",
               "path": "/docs/organisations",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rak-sticker-guide",
+              "path": "/docs/rak-sticker-guide",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
