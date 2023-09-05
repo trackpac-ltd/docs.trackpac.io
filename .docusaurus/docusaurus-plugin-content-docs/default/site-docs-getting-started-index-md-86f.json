@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Getting-Started/index",
+  "id": "Getting-Started/index",
+  "title": "Introduction",
+  "description": "What is Trackpac?",
+  "source": "@site/docs/Getting-Started/index.md",
+  "sourceDirName": "Getting-Started",
+  "slug": "/Getting-Started/",
+  "permalink": "/docs/Getting-Started/",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/Getting-Started/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  }
+}

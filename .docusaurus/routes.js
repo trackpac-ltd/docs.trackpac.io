@@ -99,53 +99,59 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '553'),
+    component: ComponentCreator('/docs', '4ea'),
     routes: [
       {
-        path: '/docs/add-a-contact',
-        component: ComponentCreator('/docs/add-a-contact', 'd4e'),
+        path: '/docs/device-guides/',
+        component: ComponentCreator('/docs/device-guides/', '9ab'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/add-a-geofence',
-        component: ComponentCreator('/docs/add-a-geofence', '6e7'),
+        path: '/docs/device-guides/rak-sticker-guide',
+        component: ComponentCreator('/docs/device-guides/rak-sticker-guide', 'b82'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/add-an-action',
-        component: ComponentCreator('/docs/add-an-action', '7d8'),
+        path: '/docs/getting-started/',
+        component: ComponentCreator('/docs/getting-started/', 'cd1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/getting-started-guide',
-        component: ComponentCreator('/docs/getting-started-guide', 'fe2'),
+        path: '/docs/getting-started/add-a-contact',
+        component: ComponentCreator('/docs/getting-started/add-a-contact', '099'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/docs/getting-started/add-a-geofence',
+        component: ComponentCreator('/docs/getting-started/add-a-geofence', '868'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/managing-a-device',
-        component: ComponentCreator('/docs/managing-a-device', '189'),
+        path: '/docs/getting-started/add-an-action',
+        component: ComponentCreator('/docs/getting-started/add-an-action', '8f6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/organisations',
-        component: ComponentCreator('/docs/organisations', '8e4'),
+        path: '/docs/getting-started/manage-organisations',
+        component: ComponentCreator('/docs/getting-started/manage-organisations', 'd9f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/rak-sticker-guide',
-        component: ComponentCreator('/docs/rak-sticker-guide', '553'),
+        path: '/docs/getting-started/managing-a-device',
+        component: ComponentCreator('/docs/getting-started/managing-a-device', 'e2f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/introduction',
+        component: ComponentCreator('/docs/introduction', '457'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

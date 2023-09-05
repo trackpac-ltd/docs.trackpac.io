@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/add-a-contact",
+  "id": "getting-started/add-a-contact",
+  "title": "Add a Contact",
+  "description": "Follow these simple steps to add a new contact to your account for receiving alerts or notifications.",
+  "source": "@site/docs/getting-started/add-a-contact.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/add-a-contact",
+  "permalink": "/docs/getting-started/add-a-contact",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-contact.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started Guide",
+    "permalink": "/docs/getting-started/"
+  },
+  "next": {
+    "title": "Add a Geofence",
+    "permalink": "/docs/getting-started/add-a-geofence"
+  }
+}

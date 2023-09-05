@@ -14,14 +14,5 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Add a Contact",
-    "permalink": "/docs/add-a-contact"
-  },
-  "next": {
-    "title": "Add an Action",
-    "permalink": "/docs/add-an-action"
   }
 }

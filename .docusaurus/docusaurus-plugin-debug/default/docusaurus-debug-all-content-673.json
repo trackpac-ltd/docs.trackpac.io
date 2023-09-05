@@ -20,97 +20,63 @@
           "contentPathLocalized": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "add-a-contact",
-              "id": "add-a-contact",
+              "unversionedId": "device-guides/index",
+              "id": "device-guides/index",
+              "title": "Device Guides",
+              "description": "This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.",
+              "source": "@site/docs/device-guides/index.md",
+              "sourceDirName": "device-guides",
+              "slug": "/device-guides/",
+              "permalink": "/docs/device-guides/",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Managing a Device",
+                "permalink": "/docs/getting-started/managing-a-device"
+              },
+              "next": {
+                "title": "RAK2270 Sticker Tracker Guide",
+                "permalink": "/docs/device-guides/rak-sticker-guide"
+              }
+            },
+            {
+              "unversionedId": "device-guides/rak-sticker-guide",
+              "id": "device-guides/rak-sticker-guide",
+              "title": "RAK2270 Sticker Tracker Guide",
+              "description": "Congratulations on your new RAK2270 Sticker Trackers! Follow this step-by-step guide to get your asset tracking up and running.",
+              "source": "@site/docs/device-guides/rak-sticker-guide.md",
+              "sourceDirName": "device-guides",
+              "slug": "/device-guides/rak-sticker-guide",
+              "permalink": "/docs/device-guides/rak-sticker-guide",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/rak-sticker-guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Device Guides",
+                "permalink": "/docs/device-guides/"
+              }
+            },
+            {
+              "unversionedId": "getting-started/add-a-contact",
+              "id": "getting-started/add-a-contact",
               "title": "Add a Contact",
               "description": "Follow these simple steps to add a new contact to your account for receiving alerts or notifications.",
-              "source": "@site/docs/add-a-contact.md",
-              "sourceDirName": ".",
-              "slug": "/add-a-contact",
-              "permalink": "/docs/add-a-contact",
+              "source": "@site/docs/getting-started/add-a-contact.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/add-a-contact",
+              "permalink": "/docs/getting-started/add-a-contact",
               "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/add-a-contact.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started Guide",
-                "permalink": "/docs/getting-started-guide"
-              },
-              "next": {
-                "title": "Add a Geofence",
-                "permalink": "/docs/add-a-geofence"
-              }
-            },
-            {
-              "unversionedId": "add-a-geofence",
-              "id": "add-a-geofence",
-              "title": "Add a Geofence",
-              "description": "Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.",
-              "source": "@site/docs/add-a-geofence.md",
-              "sourceDirName": ".",
-              "slug": "/add-a-geofence",
-              "permalink": "/docs/add-a-geofence",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/add-a-geofence.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Add a Contact",
-                "permalink": "/docs/add-a-contact"
-              },
-              "next": {
-                "title": "Add an Action",
-                "permalink": "/docs/add-an-action"
-              }
-            },
-            {
-              "unversionedId": "add-an-action",
-              "id": "add-an-action",
-              "title": "Add an Action",
-              "description": "Use this guide to set up a new action that triggers alerts or forwards data based on various conditions.",
-              "source": "@site/docs/add-an-action.md",
-              "sourceDirName": ".",
-              "slug": "/add-an-action",
-              "permalink": "/docs/add-an-action",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/add-an-action.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Add a Geofence",
-                "permalink": "/docs/add-a-geofence"
-              },
-              "next": {
-                "title": "Organisations",
-                "permalink": "/docs/organisations"
-              }
-            },
-            {
-              "unversionedId": "getting-started-guide",
-              "id": "getting-started-guide",
-              "title": "Getting Started Guide",
-              "description": "Welcome to our platform! This guide will walk you through the essential steps to get you up and running.",
-              "source": "@site/docs/getting-started-guide.md",
-              "sourceDirName": ".",
-              "slug": "/getting-started-guide",
-              "permalink": "/docs/getting-started-guide",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started-guide.md",
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-contact.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -119,75 +85,103 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Add a Contact",
-                "permalink": "/docs/add-a-contact"
-              }
-            },
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "title": "Introduction",
-              "description": "What is Trackpac?",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
                 "title": "Getting Started Guide",
-                "permalink": "/docs/getting-started-guide"
+                "permalink": "/docs/getting-started/"
+              },
+              "next": {
+                "title": "Add a Geofence",
+                "permalink": "/docs/getting-started/add-a-geofence"
               }
             },
             {
-              "unversionedId": "managing-a-device",
-              "id": "managing-a-device",
-              "title": "Managing a Device",
-              "description": "Our platform aims to provide an intuitive user experience while accommodating a variety of device types, each with unique features and capabilities. Whether you're monitoring a temperature sensor or a tracking device, the necessary data is displayed in an organized and customizable manner.",
-              "source": "@site/docs/managing-a-device.md",
-              "sourceDirName": ".",
-              "slug": "/managing-a-device",
-              "permalink": "/docs/managing-a-device",
+              "unversionedId": "getting-started/add-a-geofence",
+              "id": "getting-started/add-a-geofence",
+              "title": "Add a Geofence",
+              "description": "Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.",
+              "source": "@site/docs/getting-started/add-a-geofence.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/add-a-geofence",
+              "permalink": "/docs/getting-started/add-a-geofence",
               "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/managing-a-device.md",
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-geofence.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 7
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Organisations",
-                "permalink": "/docs/organisations"
+                "title": "Add a Contact",
+                "permalink": "/docs/getting-started/add-a-contact"
               },
               "next": {
-                "title": "RAK2270 Sticker Tracker Guide",
-                "permalink": "/docs/rak-sticker-guide"
+                "title": "Add an Action",
+                "permalink": "/docs/getting-started/add-an-action"
               }
             },
             {
-              "unversionedId": "organisations",
-              "id": "organisations",
+              "unversionedId": "getting-started/add-an-action",
+              "id": "getting-started/add-an-action",
+              "title": "Add an Action",
+              "description": "Use this guide to set up a new action that triggers alerts or forwards data based on various conditions.",
+              "source": "@site/docs/getting-started/add-an-action.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/add-an-action",
+              "permalink": "/docs/getting-started/add-an-action",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-an-action.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Add a Geofence",
+                "permalink": "/docs/getting-started/add-a-geofence"
+              },
+              "next": {
+                "title": "Organisations",
+                "permalink": "/docs/getting-started/manage-organisations"
+              }
+            },
+            {
+              "unversionedId": "getting-started/index",
+              "id": "getting-started/index",
+              "title": "Getting Started Guide",
+              "description": "Welcome to our platform! This guide will walk you through the essential steps to get you up and running.",
+              "source": "@site/docs/getting-started/index.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/",
+              "permalink": "/docs/getting-started/",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/introduction"
+              },
+              "next": {
+                "title": "Add a Contact",
+                "permalink": "/docs/getting-started/add-a-contact"
+              }
+            },
+            {
+              "unversionedId": "getting-started/manage-organisations",
+              "id": "getting-started/manage-organisations",
               "title": "Organisations",
               "description": "The Organisations feature provides a structured way to manage multiple devices based on varying criteria such as projects, customer groups, or locations. This allows for easier management of contacts, actions, and geofences, while also permitting you to grant access to multiple members.",
-              "source": "@site/docs/organisations.md",
-              "sourceDirName": ".",
-              "slug": "/organisations",
-              "permalink": "/docs/organisations",
+              "source": "@site/docs/getting-started/manage-organisations.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/manage-organisations",
+              "permalink": "/docs/getting-started/manage-organisations",
               "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/organisations.md",
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/manage-organisations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -197,34 +191,61 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Add an Action",
-                "permalink": "/docs/add-an-action"
+                "permalink": "/docs/getting-started/add-an-action"
               },
               "next": {
                 "title": "Managing a Device",
-                "permalink": "/docs/managing-a-device"
+                "permalink": "/docs/getting-started/managing-a-device"
               }
             },
             {
-              "unversionedId": "rak-sticker-guide",
-              "id": "rak-sticker-guide",
-              "title": "RAK2270 Sticker Tracker Guide",
-              "description": "Congratulations on your new RAK2270 Sticker Trackers! Follow this step-by-step guide to get your asset tracking up and running.",
-              "source": "@site/docs/rak-sticker-guide.md",
-              "sourceDirName": ".",
-              "slug": "/rak-sticker-guide",
-              "permalink": "/docs/rak-sticker-guide",
+              "unversionedId": "getting-started/managing-a-device",
+              "id": "getting-started/managing-a-device",
+              "title": "Managing a Device",
+              "description": "Our platform aims to provide an intuitive user experience while accommodating a variety of device types, each with unique features and capabilities. Whether you're monitoring a temperature sensor or a tracking device, the necessary data is displayed in an organized and customizable manner.",
+              "source": "@site/docs/getting-started/managing-a-device.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/managing-a-device",
+              "permalink": "/docs/getting-started/managing-a-device",
               "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/rak-sticker-guide.md",
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/managing-a-device.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 8
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Managing a Device",
-                "permalink": "/docs/managing-a-device"
+                "title": "Organisations",
+                "permalink": "/docs/getting-started/manage-organisations"
+              },
+              "next": {
+                "title": "Device Guides",
+                "permalink": "/docs/device-guides/"
+              }
+            },
+            {
+              "unversionedId": "introduction",
+              "id": "introduction",
+              "title": "Introduction",
+              "description": "What is Trackpac?",
+              "source": "@site/docs/introduction.md",
+              "sourceDirName": ".",
+              "slug": "/introduction",
+              "permalink": "/docs/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Getting Started Guide",
+                "permalink": "/docs/getting-started/"
               }
             }
           ],
@@ -233,35 +254,57 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "introduction",
+                "label": "Introduction",
+                "translatable": true
               },
               {
-                "type": "doc",
-                "id": "getting-started-guide"
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/add-a-contact"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/add-a-geofence"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/add-an-action"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/manage-organisations"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/managing-a-device"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               },
               {
-                "type": "doc",
-                "id": "add-a-contact"
-              },
-              {
-                "type": "doc",
-                "id": "add-a-geofence"
-              },
-              {
-                "type": "doc",
-                "id": "add-an-action"
-              },
-              {
-                "type": "doc",
-                "id": "organisations"
-              },
-              {
-                "type": "doc",
-                "id": "managing-a-device"
-              },
-              {
-                "type": "doc",
-                "id": "rak-sticker-guide"
+                "type": "category",
+                "label": "Device Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "device-guides/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "device-guides/rak-sticker-guide"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
           }

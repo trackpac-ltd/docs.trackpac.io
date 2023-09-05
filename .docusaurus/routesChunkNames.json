@@ -186,44 +186,48 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-553": {
+  "/docs-4ea": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-995-99c"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/add-a-contact-d4e": {
+  "/docs/device-guides/-9ab": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-add-a-contact-288-e5f"
+    "content": "content---docs-device-guides-ddc-dd3"
   },
-  "/docs/add-a-geofence-6e7": {
+  "/docs/device-guides/rak-sticker-guide-b82": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-add-a-geofence-215-dce"
+    "content": "content---docs-device-guides-rak-sticker-guidebad-68e"
   },
-  "/docs/add-an-action-7d8": {
+  "/docs/getting-started/-cd1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-add-an-action-16-d-98d"
+    "content": "content---docs-getting-started-54-c-251"
   },
-  "/docs/getting-started-guide-fe2": {
+  "/docs/getting-started/add-a-contact-099": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-guide-97-b-e43"
+    "content": "content---docs-getting-started-add-a-contactab-5-41b"
   },
-  "/docs/intro-aed": {
+  "/docs/getting-started/add-a-geofence-868": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "content": "content---docs-getting-started-add-a-geofence-023-4a8"
   },
-  "/docs/managing-a-device-189": {
+  "/docs/getting-started/add-an-action-8f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-managing-a-deviceef-7-805"
+    "content": "content---docs-getting-started-add-an-action-37-c-848"
   },
-  "/docs/organisations-8e4": {
+  "/docs/getting-started/manage-organisations-d9f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-organisationsfc-2-c65"
+    "content": "content---docs-getting-started-manage-organisations-7-b-6-81c"
   },
-  "/docs/rak-sticker-guide-553": {
+  "/docs/getting-started/managing-a-device-e2f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-rak-sticker-guide-5-a-6-25b"
+    "content": "content---docs-getting-started-managing-a-deviced-6-e-5ab"
+  },
+  "/docs/introduction-457": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introductiona-09-6b4"
   },
   "/-8b3": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

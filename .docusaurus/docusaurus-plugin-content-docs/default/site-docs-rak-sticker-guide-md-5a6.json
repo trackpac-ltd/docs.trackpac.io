@@ -14,10 +14,5 @@
   "sidebarPosition": 8,
   "frontMatter": {
     "sidebar_position": 8
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Managing a Device",
-    "permalink": "/docs/managing-a-device"
   }
 }

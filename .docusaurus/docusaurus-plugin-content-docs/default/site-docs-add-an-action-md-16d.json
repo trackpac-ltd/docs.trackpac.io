@@ -14,14 +14,5 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Add a Geofence",
-    "permalink": "/docs/add-a-geofence"
-  },
-  "next": {
-    "title": "Organisations",
-    "permalink": "/docs/organisations"
   }
 }

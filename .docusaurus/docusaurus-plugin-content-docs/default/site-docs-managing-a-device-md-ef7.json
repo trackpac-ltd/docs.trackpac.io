@@ -14,14 +14,5 @@
   "sidebarPosition": 7,
   "frontMatter": {
     "sidebar_position": 7
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Organisations",
-    "permalink": "/docs/organisations"
-  },
-  "next": {
-    "title": "RAK2270 Sticker Tracker Guide",
-    "permalink": "/docs/rak-sticker-guide"
   }
 }

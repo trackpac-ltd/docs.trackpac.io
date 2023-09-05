@@ -1,0 +1,24 @@
+{
+  "unversionedId": "device-guides/index",
+  "id": "device-guides/index",
+  "title": "Device Guides",
+  "description": "This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.",
+  "source": "@site/docs/device-guides/index.md",
+  "sourceDirName": "device-guides",
+  "slug": "/device-guides/",
+  "permalink": "/docs/device-guides/",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing a Device",
+    "permalink": "/docs/getting-started/managing-a-device"
+  },
+  "next": {
+    "title": "RAK2270 Sticker Tracker Guide",
+    "permalink": "/docs/device-guides/rak-sticker-guide"
+  }
+}
