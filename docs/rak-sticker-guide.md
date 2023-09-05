@@ -63,7 +63,7 @@ Navigate to [v2.trackpac.io](https://v2.trackpac.io) — your central platform f
 
 - **Bulk Onboarding**: For large volumes, contact us for dedicated support.
 - **Feedback**: We value your feedback. Click [here](https://trackpac.canny.io/feature-device-requests) to share your experience.
-- **Support**: Prefer a call or email? Contact us at [support@trackpac.io](mailto:support@trackpac.io) or call 1-800-TRACKPAC.
+- **Support**: Prefer an email? Contact us at [support@trackpac.io](mailto:hello@trackpac.io)
 
 ---
 
