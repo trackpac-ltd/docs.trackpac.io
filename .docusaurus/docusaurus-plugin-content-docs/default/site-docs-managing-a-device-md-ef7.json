@@ -19,5 +19,9 @@
   "previous": {
     "title": "Organisations",
     "permalink": "/docs/organisations"
+  },
+  "next": {
+    "title": "RAK2270 Sticker Tracker Guide",
+    "permalink": "/docs/rak-sticker-guide"
   }
 }
