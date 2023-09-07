@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/sidebars.js",
-          "contentPath": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/docs",
-          "contentPathLocalized": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/neilskoglund/docs.trackpac.io/sidebars.js",
+          "contentPath": "/Users/neilskoglund/docs.trackpac.io/docs",
+          "contentPathLocalized": "/Users/neilskoglund/docs.trackpac.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "device-guides/index",

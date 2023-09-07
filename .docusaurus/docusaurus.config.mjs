@@ -26,11 +26,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/sidebars.js",
+          "sidebarPath": "/Users/neilskoglund/docs.trackpac.io/sidebars.js",
           "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/neilskoglund/Documents/GitHub/docs.trackpac.io/src/css/custom.css"
+          "customCss": "/Users/neilskoglund/docs.trackpac.io/src/css/custom.css"
         }
       }
     ]
