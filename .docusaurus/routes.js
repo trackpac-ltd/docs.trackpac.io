@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '4ea'),
+    component: ComponentCreator('/docs', '240'),
     routes: [
       {
         path: '/docs/device-guides/',
@@ -154,6 +154,11 @@ export default [
         component: ComponentCreator('/docs/introduction', '457'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/introduction 2',
+        component: ComponentCreator('/docs/introduction 2', '1ad'),
+        exact: true
       }
     ]
   },
