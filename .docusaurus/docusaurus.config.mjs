@@ -66,7 +66,7 @@ export default {
           "items": [
             {
               "label": "Tutorials",
-              "to": "/docs/intro"
+              "to": "/docs/introduction"
             }
           ]
         },
