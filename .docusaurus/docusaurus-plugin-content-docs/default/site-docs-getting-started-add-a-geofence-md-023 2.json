@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/add-a-geofence",
+  "id": "getting-started/add-a-geofence",
+  "title": "Add a Geofence",
+  "description": "Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.",
+  "source": "@site/docs/getting-started/add-a-geofence.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/add-a-geofence",
+  "permalink": "/docs/getting-started/add-a-geofence",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-geofence.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add a Contact",
+    "permalink": "/docs/getting-started/add-a-contact"
+  },
+  "next": {
+    "title": "Add an Action",
+    "permalink": "/docs/getting-started/add-an-action"
+  }
+}

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # RAK2270 Sticker Tracker Guide
 
 Congratulations on your new RAK2270 Sticker Trackers! Follow this step-by-step guide to get your asset tracking up and running.
