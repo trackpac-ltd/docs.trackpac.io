@@ -135,6 +135,11 @@
       "title": "Introduction",
       "description": "What is Trackpac?",
       "sidebar": "tutorialSidebar"
+    },
+    "introduction 2": {
+      "id": "introduction 2",
+      "title": "Introduction",
+      "description": "What is Trackpac?"
     }
   }
 }

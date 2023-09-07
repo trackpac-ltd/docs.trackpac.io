@@ -244,6 +244,24 @@
                 "title": "Getting Started Guide",
                 "permalink": "/docs/getting-started/"
               }
+            },
+            {
+              "unversionedId": "introduction 2",
+              "id": "introduction 2",
+              "title": "Introduction",
+              "description": "What is Trackpac?",
+              "source": "@site/docs/introduction 2.md",
+              "sourceDirName": ".",
+              "slug": "/introduction 2",
+              "permalink": "/docs/introduction 2",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/introduction 2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
             }
           ],
           "drafts": [],
