@@ -11,7 +11,10 @@
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/rak-sticker-guide.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Device Guides",
