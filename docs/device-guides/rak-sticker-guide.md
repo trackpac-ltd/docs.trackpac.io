@@ -2,7 +2,9 @@
 
 ![The RAKwireless 2270 Sticker Tracker](../assets/rak2270-front.jpg)
 
-Congratulations on your purchase of the RAK2270 Sticker Trackers powered by Trackpac! Follow this step-by-step guide to get your stickers working.
+Congratulations on your purchase of the RAK2270 Sticker Tracker powered by Trackpac!
+
+Follow this step-by-step guide to get your stickers working.
 
 ## Table of Contents
 
@@ -18,7 +20,7 @@ Congratulations on your purchase of the RAK2270 Sticker Trackers powered by Trac
 
 ### Unpack Your Device
 
-1. **Remove the Protective Covering**: The RAK2270's come enclosed in a protective bag, take them out, whilst this wont effect the quality we dont reccomend putting them back in when activate
+1. **Remove the Protective Covering**: The RAK2270's come enclosed in a protective bag, take them out, whilst this wont effect the quality we dont reccomend putting them back in when active.
 
 2. **Locate the QR Code**: The QR Code is used for pairing the device with your account on our platform. It is located on the silver sticker at the top.
 
@@ -37,8 +39,16 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 ### Add Your Device
 
 1. **Locate Add Device Button**: Look for the "+" button to add a new device and click it.
-2. **Scan QR Code**: Click on 'Scan QR Code'. Lay the RAK sticker flat and scan the QR code.
-3. **Confirm**: Post-scan, your device will show up in the dashboard.
+
+![Add Device Button](../assets/add-device.png)
+
+2. You will then be presented with the following options, select **Scan QR Code**
+
+![Add Device Dialog](../assets/add-device-dialog.png)
+
+3. Scan the RAK2270 QR Code, the scanner will alert you when it has read the QR code successfully.
+
+4. **Confirm**: Post-scan, your device will show up in the dashboard.
 
 > **Trouble?** Use the live chat at the bottom right corner for instant help.
 
@@ -46,9 +56,9 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 
 ### Activate Your Device
 
-![Rip along the preforated line as shown to activate](../assets/rak2270-rip-to-activate.jpg)
-
 - **Rip to Activate**: Gently rip the perforated tab at the sticker's bottom to activate and power up the device.
+
+![Rip along the preforated line as shown to activate](../assets/rak2270-rip-to-activate.jpg)
 
 ---
 

@@ -36,7 +36,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/social.png",
     "navbar": {
       "title": "Trackpac Docs",
       "logo": {
