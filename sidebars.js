@@ -24,9 +24,11 @@ const sidebars = {
       label: "Getting Started",
       items: [
         "getting-started/index",
+        "getting-started/add-a-device",
         "getting-started/add-a-contact",
-        "getting-started/add-a-geofence",
         "getting-started/add-an-action",
+        "getting-started/add-a-geofence",
+        "getting-started/add-a-base",
         "getting-started/manage-organisations",
         "getting-started/managing-a-device",
       ],

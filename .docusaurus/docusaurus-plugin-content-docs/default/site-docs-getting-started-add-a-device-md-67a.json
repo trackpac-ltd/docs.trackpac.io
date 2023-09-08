@@ -1,0 +1,24 @@
+{
+  "unversionedId": "getting-started/add-a-device",
+  "id": "getting-started/add-a-device",
+  "title": "Add a Device",
+  "description": "Once you have created an account and logged in, the next step is adding a device for monitoring.",
+  "source": "@site/docs/getting-started/add-a-device.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/add-a-device",
+  "permalink": "/docs/getting-started/add-a-device",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-device.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sign up",
+    "permalink": "/docs/getting-started/"
+  },
+  "next": {
+    "title": "Add a Contact",
+    "permalink": "/docs/getting-started/add-a-contact"
+  }
+}

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Add a Geofence
 
-Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.
+If your device is an asset tracker, you can add a geofence to get alerts when a tracker enters or exits and area.
 
 ## Step-by-Step Guide
 
@@ -22,7 +22,7 @@ Follow these simple steps to add a new geofence to your account for location-bas
 
    - **Start and End Time**: If "Out of Hours" is selected, input the time range during which you don't want to receive alerts.
 
-6. **Select Contacts for Alerts**: Choose which of your saved contacts should receive geofence alerts by checking the boxes next to their names.
+6. **Select Contacts for Alerts**: Choose which of your saved contacts should receive geofence alerts by entering in their names, or by clicking the box and selecting them from the list.
 
 7. **Set Geofence Center**:
 

@@ -21,8 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "getting-started/add-a-base",
+              "path": "/docs/getting-started/add-a-base",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "getting-started/add-a-contact",
               "path": "/docs/getting-started/add-a-contact",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/add-a-device",
+              "path": "/docs/getting-started/add-a-device",
               "sidebar": "tutorialSidebar"
             },
             {

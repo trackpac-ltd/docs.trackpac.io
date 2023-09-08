@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/add-a-base",
+  "id": "getting-started/add-a-base",
+  "title": "Add a Base",
+  "description": "If your device is a sticker Tracker (Nanothings Nanotag or RAKwireless 2270 Sticker Tracker) you can add bases for your stickers.",
+  "source": "@site/docs/getting-started/add-a-base.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/add-a-base",
+  "permalink": "/docs/getting-started/add-a-base",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-base.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add a Geofence",
+    "permalink": "/docs/getting-started/add-a-geofence"
+  },
+  "next": {
+    "title": "Organisations",
+    "permalink": "/docs/getting-started/manage-organisations"
+  }
+}

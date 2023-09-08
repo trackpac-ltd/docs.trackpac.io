@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started Guide",
-    "permalink": "/docs/getting-started/"
+    "title": "Add a Device",
+    "permalink": "/docs/getting-started/add-a-device"
   },
   "next": {
-    "title": "Add a Geofence",
-    "permalink": "/docs/getting-started/add-a-geofence"
+    "title": "Add an Action",
+    "permalink": "/docs/getting-started/add-an-action"
   }
 }

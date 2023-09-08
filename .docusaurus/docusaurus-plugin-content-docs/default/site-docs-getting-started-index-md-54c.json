@@ -1,7 +1,7 @@
 {
   "unversionedId": "getting-started/index",
   "id": "getting-started/index",
-  "title": "Getting Started Guide",
+  "title": "Sign up",
   "description": "Welcome to our platform! This guide will walk you through the essential steps to get you up and running.",
   "source": "@site/docs/getting-started/index.md",
   "sourceDirName": "getting-started",
@@ -18,7 +18,7 @@
     "permalink": "/docs/introduction"
   },
   "next": {
-    "title": "Add a Contact",
-    "permalink": "/docs/getting-started/add-a-contact"
+    "title": "Add a Device",
+    "permalink": "/docs/getting-started/add-a-device"
   }
 }

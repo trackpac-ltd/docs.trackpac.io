@@ -2,7 +2,7 @@
   "unversionedId": "getting-started/add-a-geofence",
   "id": "getting-started/add-a-geofence",
   "title": "Add a Geofence",
-  "description": "Follow these simple steps to add a new geofence to your account for location-based alerts and notifications.",
+  "description": "If your device is an asset tracker, you can add a geofence to get alerts when a tracker enters or exits and area.",
   "source": "@site/docs/getting-started/add-a-geofence.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/add-a-geofence",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Add a Contact",
-    "permalink": "/docs/getting-started/add-a-contact"
-  },
-  "next": {
     "title": "Add an Action",
     "permalink": "/docs/getting-started/add-an-action"
+  },
+  "next": {
+    "title": "Add a Base",
+    "permalink": "/docs/getting-started/add-a-base"
   }
 }

@@ -1,6 +1,8 @@
 # RAK2270 Sticker Tracker Guide
 
-Congratulations on your new RAK2270 Sticker Trackers! Follow this step-by-step guide to get your asset tracking up and running.
+![The RAKwireless 2270 Sticker Tracker](../assets/rak2270-front.jpg)
+
+Congratulations on your purchase of the RAK2270 Sticker Trackers powered by Trackpac! Follow this step-by-step guide to get your stickers working.
 
 ## Table of Contents
 
@@ -16,14 +18,13 @@ Congratulations on your new RAK2270 Sticker Trackers! Follow this step-by-step g
 
 ### Unpack Your Device
 
-1. **Remove the Protective Covering**: Start by removing the plastic protective covering from the RAK Sticker.
-2. **Locate the QR Code and dev_eui**: The QR Code is used for pairing. Below it, you'll find the `dev_eui`, essential for identification. Make a note of it.
+1. **Remove the Protective Covering**: The RAK2270's come enclosed in a protective bag, take them out, whilst this wont effect the quality we dont reccomend putting them back in when activate
 
----
+2. **Locate the QR Code**: The QR Code is used for pairing the device with your account on our platform. It is located on the silver sticker at the top.
 
-### Access the Portal
+### Access the Trackpac Portal
 
-Navigate to [v2.trackpac.io](https://v2.trackpac.io) — your central platform for device management.
+Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central platform for device management.
 
 ---
 
@@ -45,6 +46,8 @@ Navigate to [v2.trackpac.io](https://v2.trackpac.io) — your central platform f
 
 ### Activate Your Device
 
+![Rip along the preforated line as shown to activate](../assets/rak2270-rip-to-activate.jpg)
+
 - **Rip to Activate**: Gently rip the perforated tab at the sticker's bottom to activate and power up the device.
 
 ---
@@ -52,6 +55,14 @@ Navigate to [v2.trackpac.io](https://v2.trackpac.io) — your central platform f
 ### Monitor Your Device
 
 - **Wait for Data**: The device checks in every 60 minutes. You'll start to see data an hour post-activation.
+
+---
+
+### Next Steps
+
+- **[Add a Contact](../getting-started/add-a-contact)** - Setup contacts to get notifications
+- **[Add a Base](../getting-started/add-a-base)** - Get notifications when a tag enters or exits an area
+- **[Add an Action](../getting-started/add-an-action)** - Setup alerts for temperature warnings
 
 ---
 
@@ -64,7 +75,3 @@ Navigate to [v2.trackpac.io](https://v2.trackpac.io) — your central platform f
 ---
 
 Thank you for choosing Trackpac. We're here to assist you every step of the way.
-
----
-
-Feel free to customize the links and other specifics as needed.

@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-52a": {
+  "/docs-5c1": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-9-ad-3e4"
@@ -205,9 +205,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-getting-started-54-c-251"
   },
+  "/docs/getting-started/add-a-base-636": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-add-a-base-4-cb-fd6"
+  },
   "/docs/getting-started/add-a-contact-099": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-getting-started-add-a-contactab-5-41b"
+  },
+  "/docs/getting-started/add-a-device-167": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-add-a-device-67-a-98f"
   },
   "/docs/getting-started/add-a-geofence-868": {
     "__comp": "__comp---theme-doc-item-178-a40",

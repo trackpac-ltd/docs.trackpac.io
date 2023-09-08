@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '52a'),
+    component: ComponentCreator('/docs', '5c1'),
     routes: [
       {
         path: '/docs/device-guides/',
@@ -120,8 +120,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/getting-started/add-a-base',
+        component: ComponentCreator('/docs/getting-started/add-a-base', '636'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/getting-started/add-a-contact',
         component: ComponentCreator('/docs/getting-started/add-a-contact', '099'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/getting-started/add-a-device',
+        component: ComponentCreator('/docs/getting-started/add-a-device', '167'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

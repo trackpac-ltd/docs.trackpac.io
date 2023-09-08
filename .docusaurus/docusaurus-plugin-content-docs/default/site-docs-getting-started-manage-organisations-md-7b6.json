@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Add an Action",
-    "permalink": "/docs/getting-started/add-an-action"
+    "title": "Add a Base",
+    "permalink": "/docs/getting-started/add-a-base"
   },
   "next": {
     "title": "Managing a Device",

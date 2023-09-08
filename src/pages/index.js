@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Trackpac Documentation - Empowering IoT with Trackpac`}
-      description="Trackpac Documentation Site. Empowering IoT with Trackpac 🌐🔌 Sensors for all needs - asset tracking to environmental monitoring 📦🔍 Join the future of smart tech today!"
+      description="Trackpac Documentation Site. Empowering IoT with Trackpac!"
     >
       <HomepageHeader />
       <main>
