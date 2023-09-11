@@ -1,7 +1,7 @@
 {
   "unversionedId": "device-guides/rak-sticker-guide",
   "id": "device-guides/rak-sticker-guide",
-  "title": "RAK2270 Sticker Tracker Guide",
+  "title": "RAKWireless RAK2270",
   "description": "The RAKwireless 2270 Sticker Tracker",
   "source": "@site/docs/device-guides/rak-sticker-guide.md",
   "sourceDirName": "device-guides",
@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Device Guides",
+    "title": "Intro",
     "permalink": "/docs/device-guides/"
+  },
+  "next": {
+    "title": "Browan Tabs TBOL100",
+    "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
   }
 }

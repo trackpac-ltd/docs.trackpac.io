@@ -1,22 +1,10 @@
-# RAK2270 Sticker Tracker Guide
+# RAKWireless RAK2270
 
 ![The RAKwireless 2270 Sticker Tracker](../assets/rak2270-front.jpg)
 
 Congratulations on your purchase of the RAK2270 Sticker Tracker powered by Trackpac!
 
 Follow this step-by-step guide to get your stickers working.
-
-## Table of Contents
-
-- [Unpack Your Device](#unpack-your-device)
-- [Access the Portal](#access-the-portal)
-- [Create or Log in to Your Trackpac Account](#create-or-log-in-to-your-trackpac-account)
-- [Add Your Device](#add-your-device)
-- [Activate Your Device](#activate-your-device)
-- [Monitor Your Device](#monitor-your-device)
-- [Additional Resources](#additional-resources)
-
----
 
 ### Unpack Your Device
 

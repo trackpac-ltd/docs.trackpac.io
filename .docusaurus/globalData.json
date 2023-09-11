@@ -11,6 +11,11 @@
           "mainDocId": "introduction",
           "docs": [
             {
+              "id": "device-guides/browan-tabs-object-locator-guide",
+              "path": "/docs/device-guides/browan-tabs-object-locator-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "device-guides/index",
               "path": "/docs/device-guides/",
               "sidebar": "tutorialSidebar"

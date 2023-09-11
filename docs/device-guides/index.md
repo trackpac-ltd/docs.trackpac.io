@@ -1,4 +1,4 @@
-# Device Guides
+# Intro
 
 This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.
 

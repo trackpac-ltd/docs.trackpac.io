@@ -77,15 +77,21 @@
         "items": [
           {
             "type": "link",
-            "label": "Device Guides",
+            "label": "Intro",
             "href": "/docs/device-guides/",
             "docId": "device-guides/index"
           },
           {
             "type": "link",
-            "label": "RAK2270 Sticker Tracker Guide",
+            "label": "RAKWireless RAK2270",
             "href": "/docs/device-guides/rak-sticker-guide",
             "docId": "device-guides/rak-sticker-guide"
+          },
+          {
+            "type": "link",
+            "label": "Browan Tabs TBOL100",
+            "href": "/docs/device-guides/browan-tabs-object-locator-guide",
+            "docId": "device-guides/browan-tabs-object-locator-guide"
           }
         ],
         "collapsed": true,
@@ -94,15 +100,21 @@
     ]
   },
   "docs": {
+    "device-guides/browan-tabs-object-locator-guide": {
+      "id": "device-guides/browan-tabs-object-locator-guide",
+      "title": "Browan Tabs TBOL100",
+      "description": "Getting started with a Browan tabs object locator couldnt be easier. Follow our step-by-step guide below to get started.",
+      "sidebar": "tutorialSidebar"
+    },
     "device-guides/index": {
       "id": "device-guides/index",
-      "title": "Device Guides",
+      "title": "Intro",
       "description": "This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.",
       "sidebar": "tutorialSidebar"
     },
     "device-guides/rak-sticker-guide": {
       "id": "device-guides/rak-sticker-guide",
-      "title": "RAK2270 Sticker Tracker Guide",
+      "title": "RAKWireless RAK2270",
       "description": "The RAKwireless 2270 Sticker Tracker",
       "sidebar": "tutorialSidebar"
     },

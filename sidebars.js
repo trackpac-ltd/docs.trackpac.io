@@ -36,7 +36,11 @@ const sidebars = {
     {
       type: "category",
       label: "Device Guides",
-      items: ["device-guides/index", "device-guides/rak-sticker-guide"],
+      items: [
+        "device-guides/index",
+        "device-guides/rak-sticker-guide",
+        "device-guides/browan-tabs-object-locator-guide",
+      ],
     },
   ],
 };

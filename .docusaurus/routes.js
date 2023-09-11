@@ -99,11 +99,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5c1'),
+    component: ComponentCreator('/docs', 'ed4'),
     routes: [
       {
         path: '/docs/device-guides/',
         component: ComponentCreator('/docs/device-guides/', '9ab'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/device-guides/browan-tabs-object-locator-guide',
+        component: ComponentCreator('/docs/device-guides/browan-tabs-object-locator-guide', 'dc2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

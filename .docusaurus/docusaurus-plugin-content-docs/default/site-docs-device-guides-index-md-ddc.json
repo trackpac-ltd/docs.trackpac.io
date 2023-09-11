@@ -1,7 +1,7 @@
 {
   "unversionedId": "device-guides/index",
   "id": "device-guides/index",
-  "title": "Device Guides",
+  "title": "Intro",
   "description": "This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.",
   "source": "@site/docs/device-guides/index.md",
   "sourceDirName": "device-guides",
@@ -18,7 +18,7 @@
     "permalink": "/docs/getting-started/managing-a-device"
   },
   "next": {
-    "title": "RAK2270 Sticker Tracker Guide",
+    "title": "RAKWireless RAK2270",
     "permalink": "/docs/device-guides/rak-sticker-guide"
   }
 }

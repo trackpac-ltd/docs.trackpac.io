@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-5c1": {
+  "/docs-ed4": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-9-ad-3e4"
@@ -196,6 +196,10 @@
   "/docs/device-guides/-9ab": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-device-guides-ddc-dd3"
+  },
+  "/docs/device-guides/browan-tabs-object-locator-guide-dc2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-device-guides-browan-tabs-object-locator-guide-35-c-0c6"
   },
   "/docs/device-guides/rak-sticker-guide-b82": {
     "__comp": "__comp---theme-doc-item-178-a40",
