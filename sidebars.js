@@ -42,6 +42,14 @@ const sidebars = {
         "device-guides/browan-tabs-object-locator-guide",
       ],
     },
+    {
+      type: "category",
+      label: "Advanced Guides",
+      items: [
+        "advanced-guides/introduction",
+        "advanced-guides/location-engine",
+      ],
+    },
   ],
 };
 

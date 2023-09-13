@@ -11,6 +11,16 @@
           "mainDocId": "introduction",
           "docs": [
             {
+              "id": "advanced-guides/introduction",
+              "path": "/docs/advanced-guides/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "advanced-guides/location-engine",
+              "path": "/docs/advanced-guides/location-engine",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "device-guides/browan-tabs-object-locator-guide",
               "path": "/docs/device-guides/browan-tabs-object-locator-guide",
               "sidebar": "tutorialSidebar"

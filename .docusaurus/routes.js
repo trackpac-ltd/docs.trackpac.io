@@ -99,8 +99,20 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ed4'),
+    component: ComponentCreator('/docs', 'e2f'),
     routes: [
+      {
+        path: '/docs/advanced-guides/introduction',
+        component: ComponentCreator('/docs/advanced-guides/introduction', 'c3e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/advanced-guides/location-engine',
+        component: ComponentCreator('/docs/advanced-guides/location-engine', 'a66'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/device-guides/',
         component: ComponentCreator('/docs/device-guides/', '9ab'),

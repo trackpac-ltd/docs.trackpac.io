@@ -96,10 +96,42 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Advanced Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/advanced-guides/introduction",
+            "docId": "advanced-guides/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Location Engine API Resolution",
+            "href": "/docs/advanced-guides/location-engine",
+            "docId": "advanced-guides/location-engine"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
   "docs": {
+    "advanced-guides/introduction": {
+      "id": "advanced-guides/introduction",
+      "title": "Introduction",
+      "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them.",
+      "sidebar": "tutorialSidebar"
+    },
+    "advanced-guides/location-engine": {
+      "id": "advanced-guides/location-engine",
+      "title": "Location Engine API Resolution",
+      "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
+      "sidebar": "tutorialSidebar"
+    },
     "device-guides/browan-tabs-object-locator-guide": {
       "id": "device-guides/browan-tabs-object-locator-guide",
       "title": "Browan Tabs TBOL100",

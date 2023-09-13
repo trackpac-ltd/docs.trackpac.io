@@ -20,6 +20,50 @@
           "contentPathLocalized": "/Users/neilskoglund/docs.trackpac.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "advanced-guides/introduction",
+              "id": "advanced-guides/introduction",
+              "title": "Introduction",
+              "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them.",
+              "source": "@site/docs/advanced-guides/introduction.md",
+              "sourceDirName": "advanced-guides",
+              "slug": "/advanced-guides/introduction",
+              "permalink": "/docs/advanced-guides/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Browan Tabs TBOL100",
+                "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
+              },
+              "next": {
+                "title": "Location Engine API Resolution",
+                "permalink": "/docs/advanced-guides/location-engine"
+              }
+            },
+            {
+              "unversionedId": "advanced-guides/location-engine",
+              "id": "advanced-guides/location-engine",
+              "title": "Location Engine API Resolution",
+              "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
+              "source": "@site/docs/advanced-guides/location-engine.md",
+              "sourceDirName": "advanced-guides",
+              "slug": "/advanced-guides/location-engine",
+              "permalink": "/docs/advanced-guides/location-engine",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/location-engine.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/advanced-guides/introduction"
+              }
+            },
+            {
               "unversionedId": "device-guides/browan-tabs-object-locator-guide",
               "id": "device-guides/browan-tabs-object-locator-guide",
               "title": "Browan Tabs TBOL100",
@@ -37,6 +81,10 @@
               "previous": {
                 "title": "RAKWireless RAK2270",
                 "permalink": "/docs/device-guides/rak-sticker-guide"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/advanced-guides/introduction"
               }
             },
             {
@@ -403,6 +451,22 @@
                   {
                     "type": "doc",
                     "id": "device-guides/browan-tabs-object-locator-guide"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Advanced Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "advanced-guides/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "advanced-guides/location-engine"
                   }
                 ],
                 "collapsed": true,

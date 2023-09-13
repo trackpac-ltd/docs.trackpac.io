@@ -16,5 +16,9 @@
   "previous": {
     "title": "RAKWireless RAK2270",
     "permalink": "/docs/device-guides/rak-sticker-guide"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/advanced-guides/introduction"
   }
 }

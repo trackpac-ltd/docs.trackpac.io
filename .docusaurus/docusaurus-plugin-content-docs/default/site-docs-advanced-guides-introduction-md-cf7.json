@@ -1,0 +1,24 @@
+{
+  "unversionedId": "advanced-guides/introduction",
+  "id": "advanced-guides/introduction",
+  "title": "Introduction",
+  "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them.",
+  "source": "@site/docs/advanced-guides/introduction.md",
+  "sourceDirName": "advanced-guides",
+  "slug": "/advanced-guides/introduction",
+  "permalink": "/docs/advanced-guides/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Browan Tabs TBOL100",
+    "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
+  },
+  "next": {
+    "title": "Location Engine API Resolution",
+    "permalink": "/docs/advanced-guides/location-engine"
+  }
+}
