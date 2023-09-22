@@ -12,12 +12,26 @@
           "docs": [
             {
               "id": "advanced-guides/introduction",
-              "path": "/docs/advanced-guides/introduction",
+              "path": "/docs/advanced-guides/introduction"
+            },
+            {
+              "id": "api-guides/authenticating",
+              "path": "/docs/api-guides/authenticating",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "advanced-guides/location-engine",
-              "path": "/docs/advanced-guides/location-engine",
+              "id": "api-guides/importing-into-postman",
+              "path": "/docs/api-guides/importing-into-postman",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-guides/index",
+              "path": "/docs/api-guides/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-guides/location-engine",
+              "path": "/docs/api-guides/location-engine",
               "sidebar": "tutorialSidebar"
             },
             {

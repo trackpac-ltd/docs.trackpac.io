@@ -26,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "2.4.1"
+    },
+    "docusaurus-plugin-ideal-image": {
+      "type": "package",
+      "name": "@docusaurus/plugin-ideal-image",
+      "version": "2.4.1"
     }
   }
 }

@@ -32,6 +32,69 @@
               "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/introduction.md",
               "tags": [],
               "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "api-guides/authenticating",
+              "id": "api-guides/authenticating",
+              "title": "Authenticating with the Trackpac API",
+              "description": "This guide outlines two methods to authenticate your API requests with Trackpac: retrieving the Auth0 bearer token from local storage or obtaining the token via a curl request.",
+              "source": "@site/docs/api-guides/authenticating.md",
+              "sourceDirName": "api-guides",
+              "slug": "/api-guides/authenticating",
+              "permalink": "/docs/api-guides/authenticating",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/authenticating.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/api-guides/"
+              },
+              "next": {
+                "title": "Importing Trackpac API into Postman",
+                "permalink": "/docs/api-guides/importing-into-postman"
+              }
+            },
+            {
+              "unversionedId": "api-guides/importing-into-postman",
+              "id": "api-guides/importing-into-postman",
+              "title": "Importing Trackpac API into Postman",
+              "description": "This guide will walk you through the process of importing Trackpac's OpenAPI specification into Postman. This allows you to easily test and explore Trackpac's API endpoints.",
+              "source": "@site/docs/api-guides/importing-into-postman.md",
+              "sourceDirName": "api-guides",
+              "slug": "/api-guides/importing-into-postman",
+              "permalink": "/docs/api-guides/importing-into-postman",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/importing-into-postman.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Authenticating with the Trackpac API",
+                "permalink": "/docs/api-guides/authenticating"
+              },
+              "next": {
+                "title": "Location Engine API Resolution",
+                "permalink": "/docs/api-guides/location-engine"
+              }
+            },
+            {
+              "unversionedId": "api-guides/index",
+              "id": "api-guides/index",
+              "title": "Introduction",
+              "description": "Welcome to the Trackpac API Guides section! The Trackpac API allows you to interact programmatically with our IoT dashboard, offering capabilities like alerts, actions, forwarders, and more. Whether you're an administrator, developer, or end-user, this guide aims to provide you with comprehensive instructions and examples to get you up to speed.",
+              "source": "@site/docs/api-guides/index.md",
+              "sourceDirName": "api-guides",
+              "slug": "/api-guides/",
+              "permalink": "/docs/api-guides/",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/index.md",
+              "tags": [],
+              "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -39,28 +102,28 @@
                 "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
               },
               "next": {
-                "title": "Location Engine API Resolution",
-                "permalink": "/docs/advanced-guides/location-engine"
+                "title": "Authenticating with the Trackpac API",
+                "permalink": "/docs/api-guides/authenticating"
               }
             },
             {
-              "unversionedId": "advanced-guides/location-engine",
-              "id": "advanced-guides/location-engine",
+              "unversionedId": "api-guides/location-engine",
+              "id": "api-guides/location-engine",
               "title": "Location Engine API Resolution",
               "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
-              "source": "@site/docs/advanced-guides/location-engine.md",
-              "sourceDirName": "advanced-guides",
-              "slug": "/advanced-guides/location-engine",
-              "permalink": "/docs/advanced-guides/location-engine",
+              "source": "@site/docs/api-guides/location-engine.md",
+              "sourceDirName": "api-guides",
+              "slug": "/api-guides/location-engine",
+              "permalink": "/docs/api-guides/location-engine",
               "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/location-engine.md",
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/location-engine.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/advanced-guides/introduction"
+                "title": "Importing Trackpac API into Postman",
+                "permalink": "/docs/api-guides/importing-into-postman"
               }
             },
             {
@@ -84,7 +147,7 @@
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/advanced-guides/introduction"
+                "permalink": "/docs/api-guides/"
               }
             },
             {
@@ -458,15 +521,23 @@
               },
               {
                 "type": "category",
-                "label": "Advanced Guides",
+                "label": "API Guides",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "advanced-guides/introduction"
+                    "id": "api-guides/index"
                   },
                   {
                     "type": "doc",
-                    "id": "advanced-guides/location-engine"
+                    "id": "api-guides/authenticating"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api-guides/importing-into-postman"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api-guides/location-engine"
                   }
                 ],
                 "collapsed": true,
@@ -838,6 +909,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-plugin-ideal-image": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

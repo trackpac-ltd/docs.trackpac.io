@@ -1,0 +1,24 @@
+{
+  "unversionedId": "api-guides/importing-into-postman",
+  "id": "api-guides/importing-into-postman",
+  "title": "Importing Trackpac API into Postman",
+  "description": "This guide will walk you through the process of importing Trackpac's OpenAPI specification into Postman. This allows you to easily test and explore Trackpac's API endpoints.",
+  "source": "@site/docs/api-guides/importing-into-postman.md",
+  "sourceDirName": "api-guides",
+  "slug": "/api-guides/importing-into-postman",
+  "permalink": "/docs/api-guides/importing-into-postman",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/importing-into-postman.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authenticating with the Trackpac API",
+    "permalink": "/docs/api-guides/authenticating"
+  },
+  "next": {
+    "title": "Location Engine API Resolution",
+    "permalink": "/docs/api-guides/location-engine"
+  }
+}

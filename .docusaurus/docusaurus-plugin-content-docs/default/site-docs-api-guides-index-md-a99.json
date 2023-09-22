@@ -1,0 +1,24 @@
+{
+  "unversionedId": "api-guides/index",
+  "id": "api-guides/index",
+  "title": "Introduction",
+  "description": "Welcome to the Trackpac API Guides section! The Trackpac API allows you to interact programmatically with our IoT dashboard, offering capabilities like alerts, actions, forwarders, and more. Whether you're an administrator, developer, or end-user, this guide aims to provide you with comprehensive instructions and examples to get you up to speed.",
+  "source": "@site/docs/api-guides/index.md",
+  "sourceDirName": "api-guides",
+  "slug": "/api-guides/",
+  "permalink": "/docs/api-guides/",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Browan Tabs TBOL100",
+    "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
+  },
+  "next": {
+    "title": "Authenticating with the Trackpac API",
+    "permalink": "/docs/api-guides/authenticating"
+  }
+}

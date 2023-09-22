@@ -21,6 +21,18 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        "quality": 70,
+        "max": 600,
+        "min": 400,
+        "steps": 2,
+        "disableInDev": false
+      }
+    ]
+  ],
   "presets": [
     [
       "classic",
@@ -331,7 +343,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

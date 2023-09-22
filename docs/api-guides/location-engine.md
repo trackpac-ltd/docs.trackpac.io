@@ -24,7 +24,7 @@ For our location engine to resolve a location it needs a list of hotspots that h
 
 **_Note:_** any hotspots with blank locations will be filtered.
 
-a typical payload looks like:
+A typical payload looks like:
 
 ```
 {

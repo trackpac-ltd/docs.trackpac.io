@@ -99,19 +99,31 @@
       },
       {
         "type": "category",
-        "label": "Advanced Guides",
+        "label": "API Guides",
         "items": [
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/advanced-guides/introduction",
-            "docId": "advanced-guides/introduction"
+            "href": "/docs/api-guides/",
+            "docId": "api-guides/index"
+          },
+          {
+            "type": "link",
+            "label": "Authenticating with the Trackpac API",
+            "href": "/docs/api-guides/authenticating",
+            "docId": "api-guides/authenticating"
+          },
+          {
+            "type": "link",
+            "label": "Importing Trackpac API into Postman",
+            "href": "/docs/api-guides/importing-into-postman",
+            "docId": "api-guides/importing-into-postman"
           },
           {
             "type": "link",
             "label": "Location Engine API Resolution",
-            "href": "/docs/advanced-guides/location-engine",
-            "docId": "advanced-guides/location-engine"
+            "href": "/docs/api-guides/location-engine",
+            "docId": "api-guides/location-engine"
           }
         ],
         "collapsed": true,
@@ -123,11 +135,28 @@
     "advanced-guides/introduction": {
       "id": "advanced-guides/introduction",
       "title": "Introduction",
-      "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them.",
+      "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them."
+    },
+    "api-guides/authenticating": {
+      "id": "api-guides/authenticating",
+      "title": "Authenticating with the Trackpac API",
+      "description": "This guide outlines two methods to authenticate your API requests with Trackpac: retrieving the Auth0 bearer token from local storage or obtaining the token via a curl request.",
       "sidebar": "tutorialSidebar"
     },
-    "advanced-guides/location-engine": {
-      "id": "advanced-guides/location-engine",
+    "api-guides/importing-into-postman": {
+      "id": "api-guides/importing-into-postman",
+      "title": "Importing Trackpac API into Postman",
+      "description": "This guide will walk you through the process of importing Trackpac's OpenAPI specification into Postman. This allows you to easily test and explore Trackpac's API endpoints.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-guides/index": {
+      "id": "api-guides/index",
+      "title": "Introduction",
+      "description": "Welcome to the Trackpac API Guides section! The Trackpac API allows you to interact programmatically with our IoT dashboard, offering capabilities like alerts, actions, forwarders, and more. Whether you're an administrator, developer, or end-user, this guide aims to provide you with comprehensive instructions and examples to get you up to speed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-guides/location-engine": {
+      "id": "api-guides/location-engine",
       "title": "Location Engine API Resolution",
       "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
       "sidebar": "tutorialSidebar"

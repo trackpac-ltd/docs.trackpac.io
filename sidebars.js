@@ -44,10 +44,12 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Advanced Guides",
+      label: "API Guides",
       items: [
-        "advanced-guides/introduction",
-        "advanced-guides/location-engine",
+        "api-guides/index",
+        "api-guides/authenticating",
+        "api-guides/importing-into-postman",
+        "api-guides/location-engine",
       ],
     },
   ],

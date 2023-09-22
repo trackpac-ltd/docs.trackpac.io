@@ -99,17 +99,34 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e2f'),
+    component: ComponentCreator('/docs', 'e50'),
     routes: [
       {
         path: '/docs/advanced-guides/introduction',
-        component: ComponentCreator('/docs/advanced-guides/introduction', 'c3e'),
+        component: ComponentCreator('/docs/advanced-guides/introduction', '019'),
+        exact: true
+      },
+      {
+        path: '/docs/api-guides/',
+        component: ComponentCreator('/docs/api-guides/', '363'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/advanced-guides/location-engine',
-        component: ComponentCreator('/docs/advanced-guides/location-engine', 'a66'),
+        path: '/docs/api-guides/authenticating',
+        component: ComponentCreator('/docs/api-guides/authenticating', 'bc1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api-guides/importing-into-postman',
+        component: ComponentCreator('/docs/api-guides/importing-into-postman', '9ee'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api-guides/location-engine',
+        component: ComponentCreator('/docs/api-guides/location-engine', '019'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
