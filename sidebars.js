@@ -38,6 +38,7 @@ const sidebars = {
       label: "Device Guides",
       items: [
         "device-guides/index",
+        "device-guides/supported-devices",
         "device-guides/rak-sticker-guide",
         "device-guides/browan-tabs-object-locator-guide",
       ],
