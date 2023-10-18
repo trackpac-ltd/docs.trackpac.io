@@ -12,7 +12,7 @@ Getting started with your SenseCAP T1000 and Trackpac couldnt be easier. Follow 
 
 If you purchased a Trackpac enabled T1000, you will be able to add the device via QR code. otherwise you can either add the keys manually, or self host and forward us the devices data.
 
-\*\* if you purchased your T1000 directly or via kickstarter, we will need to generate new keys for your T1000 and set them. Get in touch for help.
+**If you purchased your T1000 directly or via kickstarter, we will need to generate new keys for your T1000 and set them. Get in touch for help.**
 
 **Click Add Device'**: Go to the "Devices" tab and click on + Icon top right.
 
@@ -47,14 +47,6 @@ Ingest routes for devices can be found here: https://v2-api.trackpac.io/docs
 ## Activate your device
 
 To Activate your SenseCAP T1000, simply hold down the button until the T1000 chimes that its awake.
-
----
-
-## Monitor your device
-
-Once a GPS lock has been found on your device, it'll start checking in.
-
-The tabs update every 30 seconds when moving, and every 3 hours when static. If you ever want to take a reading, you can quickly press the button to initiate an uplink.
 
 ---
 
