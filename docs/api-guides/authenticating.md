@@ -32,7 +32,7 @@ This guide outlines two methods to authenticate your API requests with Trackpac:
 
    ```bash
    curl --request POST \
-     --url https://trackpac.eu.auth0.com/oauth/token \
+     --url https://v2-api.trackpac.io/user/login \
      --header 'content-type: application/json' \
      --data '{
        "username": "YOUR_USERNAME",
@@ -41,6 +41,14 @@ This guide outlines two methods to authenticate your API requests with Trackpac:
    ```
 
 3. **Retrieve Token**: You'll receive a JSON response containing the `access_token`. Copy and store it securely.
+
+```
+  {
+  "access_token": "ACCESS_TOKEN",
+  "expires_in": 86400,
+  "token_type": "Bearer"
+}
+```
 
 ---
 
