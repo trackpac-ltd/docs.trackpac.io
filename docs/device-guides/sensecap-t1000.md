@@ -24,7 +24,7 @@ You will then be presented with options as shown below
 
 **_Scan QR Code_**
 
-Scan the QR code on the back of your Browan Tab Object Locator. The dialog will let you know when the QR code has been scanned successfully
+Scan the QR code on the back of your SenseCAP T1000. The dialog will let you know when the QR code has been scanned successfully
 
 **_Claim Code_**
 
