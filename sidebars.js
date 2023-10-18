@@ -40,6 +40,7 @@ const sidebars = {
         "device-guides/index",
         "device-guides/supported-devices",
         "device-guides/rak-sticker-guide",
+        "device-guides/sensecap-t1000",
         "device-guides/browan-tabs-object-locator-guide",
       ],
     },

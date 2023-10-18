@@ -42,8 +42,8 @@ This guide outlines two methods to authenticate your API requests with Trackpac:
 
 3. **Retrieve Token**: You'll receive a JSON response containing the `access_token`. Copy and store it securely.
 
-```
-  {
+```json
+{
   "access_token": "ACCESS_TOKEN",
   "expires_in": 86400,
   "token_type": "Bearer"
