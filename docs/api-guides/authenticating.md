@@ -35,7 +35,7 @@ This guide outlines two methods to authenticate your API requests with Trackpac:
      --url https://v2-api.trackpac.io/user/login \
      --header 'content-type: application/json' \
      --data '{
-       "username": "YOUR_USERNAME",
+       "email": "YOUR_EMAIL",
        "password": "YOUR_PASSWORD"
      }'
    ```
