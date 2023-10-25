@@ -1,4 +1,4 @@
-# SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide
+# SenseCAP T1000
 
 Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guide.
 

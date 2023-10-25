@@ -95,7 +95,7 @@
           },
           {
             "type": "link",
-            "label": "SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide",
+            "label": "SenseCAP T1000",
             "href": "/docs/device-guides/sensecap-t1000",
             "docId": "device-guides/sensecap-t1000"
           },
@@ -193,7 +193,7 @@
     },
     "device-guides/sensecap-t1000": {
       "id": "device-guides/sensecap-t1000",
-      "title": "SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide",
+      "title": "SenseCAP T1000",
       "description": "Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guide.",
       "sidebar": "tutorialSidebar"
     },
