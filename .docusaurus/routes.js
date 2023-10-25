@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e50'),
+    component: ComponentCreator('/docs', 'dd8'),
     routes: [
       {
         path: '/docs/advanced-guides/introduction',
@@ -145,6 +145,18 @@ export default [
       {
         path: '/docs/device-guides/rak-sticker-guide',
         component: ComponentCreator('/docs/device-guides/rak-sticker-guide', 'b82'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/device-guides/sensecap-t1000',
+        component: ComponentCreator('/docs/device-guides/sensecap-t1000', 'b35'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/device-guides/supported-devices',
+        component: ComponentCreator('/docs/device-guides/supported-devices', '9fd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

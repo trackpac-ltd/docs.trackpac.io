@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Intro",
-    "permalink": "/docs/device-guides/"
+    "title": "Supported Devices 🌐",
+    "permalink": "/docs/device-guides/supported-devices"
   },
   "next": {
-    "title": "Browan Tabs TBOL100",
-    "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
+    "title": "sensecap-t1000",
+    "permalink": "/docs/device-guides/sensecap-t1000"
   }
 }

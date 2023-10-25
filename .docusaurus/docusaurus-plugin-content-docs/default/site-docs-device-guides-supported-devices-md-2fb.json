@@ -1,0 +1,24 @@
+{
+  "unversionedId": "device-guides/supported-devices",
+  "id": "device-guides/supported-devices",
+  "title": "Supported Devices 🌐",
+  "description": "Welcome to the list of devices that are compatible with Trackpac! Our platform is designed to be versatile and support a wide range of IoT devices. We're always adding new devices to our list.",
+  "source": "@site/docs/device-guides/supported-devices.md",
+  "sourceDirName": "device-guides",
+  "slug": "/device-guides/supported-devices",
+  "permalink": "/docs/device-guides/supported-devices",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/supported-devices.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/docs/device-guides/"
+  },
+  "next": {
+    "title": "RAKWireless RAK2270",
+    "permalink": "/docs/device-guides/rak-sticker-guide"
+  }
+}

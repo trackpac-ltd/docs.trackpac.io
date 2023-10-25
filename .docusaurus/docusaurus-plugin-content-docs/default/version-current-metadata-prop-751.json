@@ -83,9 +83,21 @@
           },
           {
             "type": "link",
+            "label": "Supported Devices 🌐",
+            "href": "/docs/device-guides/supported-devices",
+            "docId": "device-guides/supported-devices"
+          },
+          {
+            "type": "link",
             "label": "RAKWireless RAK2270",
             "href": "/docs/device-guides/rak-sticker-guide",
             "docId": "device-guides/rak-sticker-guide"
+          },
+          {
+            "type": "link",
+            "label": "sensecap-t1000",
+            "href": "/docs/device-guides/sensecap-t1000",
+            "docId": "device-guides/sensecap-t1000"
           },
           {
             "type": "link",
@@ -177,6 +189,18 @@
       "id": "device-guides/rak-sticker-guide",
       "title": "RAKWireless RAK2270",
       "description": "The RAKwireless 2270 Sticker Tracker",
+      "sidebar": "tutorialSidebar"
+    },
+    "device-guides/sensecap-t1000": {
+      "id": "device-guides/sensecap-t1000",
+      "title": "sensecap-t1000",
+      "description": "Certainly, Neil! Here's a more polished version of your guide for setting up the SenseCAP T1000 with Trackpac. Feel free to add your screenshots as needed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "device-guides/supported-devices": {
+      "id": "device-guides/supported-devices",
+      "title": "Supported Devices 🌐",
+      "description": "Welcome to the list of devices that are compatible with Trackpac! Our platform is designed to be versatile and support a wide range of IoT devices. We're always adding new devices to our list.",
       "sidebar": "tutorialSidebar"
     },
     "getting-started/add-a-base": {

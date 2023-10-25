@@ -1,0 +1,24 @@
+{
+  "unversionedId": "device-guides/sensecap-t1000",
+  "id": "device-guides/sensecap-t1000",
+  "title": "sensecap-t1000",
+  "description": "Certainly, Neil! Here's a more polished version of your guide for setting up the SenseCAP T1000 with Trackpac. Feel free to add your screenshots as needed.",
+  "source": "@site/docs/device-guides/sensecap-t1000.md",
+  "sourceDirName": "device-guides",
+  "slug": "/device-guides/sensecap-t1000",
+  "permalink": "/docs/device-guides/sensecap-t1000",
+  "draft": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/sensecap-t1000.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RAKWireless RAK2270",
+    "permalink": "/docs/device-guides/rak-sticker-guide"
+  },
+  "next": {
+    "title": "Browan Tabs TBOL100",
+    "permalink": "/docs/device-guides/browan-tabs-object-locator-guide"
+  }
+}

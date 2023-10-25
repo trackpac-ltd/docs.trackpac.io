@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-e50": {
+  "/docs-dd8": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-9-ad-3e4"
@@ -224,6 +224,14 @@
   "/docs/device-guides/rak-sticker-guide-b82": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-device-guides-rak-sticker-guidebad-68e"
+  },
+  "/docs/device-guides/sensecap-t1000-b35": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-device-guides-sensecap-t-10002-bc-b7f"
+  },
+  "/docs/device-guides/supported-devices-9fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-device-guides-supported-devices-2-fb-e86"
   },
   "/docs/getting-started/-cd1": {
     "__comp": "__comp---theme-doc-item-178-a40",

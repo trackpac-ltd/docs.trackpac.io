@@ -29,8 +29,6 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
 1. **Download the App**: Get the [SenseCAP Mate App](https://install.appcenter.ms/orgs/seeed/apps/sensecap-mate/distribution_groups/public) to facilitate the device setup.
 
-   ![SenseCAP Mate App](../assets/sensecap-mate-app.png)
-
 2. **Initial Login**: Upon opening the app, you can log in or opt to skip by clicking 'Skip' at the top-right corner.
 
 3. **Enter Configuration Mode**: A prompt will ask if you wish to enter Bluetooth configuration mode. Click 'Resume' or 'Yes.'
@@ -47,7 +45,7 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
    - Change the platform to 'Other Platform.'
    - Note down the `dev_eui` for later use.
-   - Update the `APP_EUI` to our recommended value: XYZ
+   - Update the `APP_EUI` to our recommended value: 545241434B504143 - if you ever want to change it back, a reset will restore the orignal keys
    - Lastly, copy the `app_key`.
 
    > Note: `dev_eui`, `app_eui`, and `app_key` are essential for adding the device to Trackpac.

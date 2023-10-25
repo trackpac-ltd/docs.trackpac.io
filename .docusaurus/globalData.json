@@ -50,6 +50,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "device-guides/sensecap-t1000",
+              "path": "/docs/device-guides/sensecap-t1000",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "device-guides/supported-devices",
+              "path": "/docs/device-guides/supported-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "getting-started/add-a-base",
               "path": "/docs/getting-started/add-a-base",
               "sidebar": "tutorialSidebar"
