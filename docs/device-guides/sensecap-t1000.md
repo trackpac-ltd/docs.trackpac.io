@@ -1,18 +1,6 @@
-Certainly, Neil! Here's a more polished version of your guide for setting up the SenseCAP T1000 with Trackpac. Feel free to add your screenshots as needed.
-
----
-
 # SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide
 
 Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guide.
-
-## Table of Contents
-
-1. [Create or Log In to Your Trackpac Account](#create-or-log-in-to-your-trackpac-account)
-2. [Set Up Your Device Using SenseCAP Mate App](#set-up-your-device)
-3. [Add Your Device to Trackpac](#add-your-device-to-trackpac)
-4. [Additional Resources](#additional-resources)
-5. [Next Steps](#next-steps)
 
 ---
 
@@ -29,17 +17,27 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
 1. **Download the App**: Get the [SenseCAP Mate App](https://install.appcenter.ms/orgs/seeed/apps/sensecap-mate/distribution_groups/public) to facilitate the device setup.
 
-2. **Initial Login**: Upon opening the app, you can log in or opt to skip by clicking 'Skip' at the top-right corner.
+2. **Initial Login**: Ignore the login, click skip top right.
+
+![SenseCap Mate Homepage](../assets/sensecap-mate-home.png)
 
 3. **Enter Configuration Mode**: A prompt will ask if you wish to enter Bluetooth configuration mode. Click 'Resume' or 'Yes.'
 
+![Sensecap Mate Configuration Mode](../assets/sensecap-mate-skip.png)
+
 4. **Choose Your Device**: From the list of supported sensors, select 'Tracker T1000.'
+
+![Sensecap T1000 Selection](../assets/sensecap-mate-select-device.png)
 
 5. **Enable Pairing Mode**: Follow the on-screen instructions to enable pairing mode. Hold down the button on your T1000 for 15 seconds until you hear a chime if you haven't turned it on yet.
 
 6. **Scan for Tracker**: Click 'Setup' to initiate a scan for your device. Once found, tap on your device to select it.
 
+![SenseCAP Mate Select Device](../assets/sensecap-mate-pairing.png)
+
 7. **View Device Information**: This screen will display details like firmware version. Navigate to the 'Settings' tab at the top right.
+
+![SenseCAP Mate Info Screen](../assets/sensecap-mate-info-screen.png)
 
 8. **Configure for Trackpac**:
 
@@ -50,10 +48,17 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
    > Note: `dev_eui`, `app_eui`, and `app_key` are essential for adding the device to Trackpac.
 
+![SenseCAP Mate Configure Settings](../assets/sensecap-mate-keys.png)
+
 9. **Additional Settings**:
 
    - **Work Mode Tab**: Set the heartbeat interval and enable various sensors and modes. 'Event Mode' is particularly useful, we like to set movement detection and movement ended.
+
+   ![Sensecap Mate Work Mode Tab](../assets/sensecap-t1000-work-modes.png)
+
    - **Geolocation Tab**: Choose 'WiFi+GNSS' for optimal location tracking in sync with Trackpac’s WiFi location engine, this can extend the battery life of the device.
+
+   ![SenseCAP mate Geolocation Tab](../assets/sensecap-t1000-geolocation.png)
 
 10. **Save Settings**: Click 'Send' at the bottom to save your changes.
 

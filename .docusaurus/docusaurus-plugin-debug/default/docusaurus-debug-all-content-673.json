@@ -142,7 +142,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sensecap-t1000",
+                "title": "SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide",
                 "permalink": "/docs/device-guides/sensecap-t1000"
               },
               "next": {
@@ -194,15 +194,15 @@
                 "permalink": "/docs/device-guides/supported-devices"
               },
               "next": {
-                "title": "sensecap-t1000",
+                "title": "SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide",
                 "permalink": "/docs/device-guides/sensecap-t1000"
               }
             },
             {
               "unversionedId": "device-guides/sensecap-t1000",
               "id": "device-guides/sensecap-t1000",
-              "title": "sensecap-t1000",
-              "description": "Certainly, Neil! Here's a more polished version of your guide for setting up the SenseCAP T1000 with Trackpac. Feel free to add your screenshots as needed.",
+              "title": "SenseCAP T1000 & Trackpac: Your Step-by-Step Setup Guide",
+              "description": "Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guide.",
               "source": "@site/docs/device-guides/sensecap-t1000.md",
               "sourceDirName": "device-guides",
               "slug": "/device-guides/sensecap-t1000",
