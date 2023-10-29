@@ -92,7 +92,7 @@ For more details on using your T1000, check out [SenseCAP's User Guide](https://
 ## Next Steps
 
 - [**Add a Contact**](../getting-started/add-a-contact) - Set up contacts for notifications.
-- [**Set Up a Geofence**](../getting-started/add-a-base) - Receive alerts based on device location.
+- [**Set Up a Geofence**](../getting-started/add-a-geofence) - Receive alerts based on device location.
 
 ---
 
