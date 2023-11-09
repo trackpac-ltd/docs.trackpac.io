@@ -56,7 +56,7 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
    ![Sensecap Mate Work Mode Tab](../assets/sensecap-t1000-work-modes.png)
 
-   - **Geolocation Tab**: Choose 'WiFi+GNSS' for optimal location tracking in sync with Trackpac’s WiFi location engine, this can extend the battery life of the device.
+   - **Geolocation Tab**: Choose 'GNSS+WiFi' for optimal location tracking, it will generally use GPS outdoors and WiFi location indoors, and for the rare occasions of no GPS lock it'll revert to WiFi.
 
    ![SenseCAP mate Geolocation Tab](../assets/sensecap-t1000-geolocation.png)
 
