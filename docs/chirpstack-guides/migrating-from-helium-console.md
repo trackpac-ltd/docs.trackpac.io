@@ -30,20 +30,27 @@ Creating and managing device profiles is a critical first step in migrating your
 
 3. **Create a New Device Profile**: Click on the 'Create' button to start defining a new device profile. Some devices have predefined templates you can choose from top right of the screen. You will need to enter specific information such as device profile name, description, and LoRaWAN® MAC version that matches your device's specifications (usually 1.0.3). A device profile is needed per region as regions are set in the device profile.
 
-4. **Configure Profile Settings**: Fill in the necessary fields such as the LoRaWAN® regional parameters, the max EIRP, and the device class (Class A, B, or C). Each of these settings should match the capabilities and requirements of your device.
+4. **Save the Device Profile**: After entering all the necessary details, save the profile. This profile will be used when registering your devices in the next steps.
 
-5. **Save the Device Profile**: After entering all the necessary details, save the profile. This profile will be used when registering your devices in the next steps.
+5. **Add the codec**: If you were not lucky enough to find a premade template you will need to add a codec. Think of the codec as a function on Helium console, this is where your devices decoder sits.
+   If you have selected a predefined template this will be filled in for you already. If you are adding a new device profile without template you will need to copy your function here.
 
-6. **Add the codec**: Think of the codec as a function on Helium console, this is where your devices decoder sits. If you have selected a predefined template this will be filled in for you. If you are adding a new device profile without template you will need to copy your function here.
+NOTE: if you are copying in your function from helium to chirpstack, your function will need some editing.
 
-NOTE: your function will need some editing, firstly bytes and port are not added as seperate variables. they are inside one called input.
+Firstly bytes and port are not seperate inputs. They are inside one called input.
+
+Secondly, the naming of the function is slightly different
+
+Finally, the return of the function is also slightly different.
 
 your function may have looked like this before:
 
 ```javascript
 function Decoder(bytes, port) {
   var decoded = {};
+
   //decoder function here
+
   return decoded;
 }
 ```
@@ -56,7 +63,8 @@ function decodeUplink(input) {
   var port = input.fPort; //check your function doesnt expect fPort, if it does rename the var.
 
   var decoded = {};
-  // Decoder function here
+
+  // decoder function here
 
   return { data: decoded };
 }
