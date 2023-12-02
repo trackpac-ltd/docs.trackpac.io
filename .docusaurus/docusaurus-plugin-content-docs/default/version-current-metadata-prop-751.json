@@ -140,6 +140,20 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "ChirpStack Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "Migrating a sensor from Helium Console to Chirpstack",
+            "href": "/docs/chirpstack-guides/migrating-from-helium-console",
+            "docId": "chirpstack-guides/migrating-from-helium-console"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
@@ -171,6 +185,12 @@
       "id": "api-guides/location-engine",
       "title": "Location Engine API Resolution",
       "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chirpstack-guides/migrating-from-helium-console": {
+      "id": "chirpstack-guides/migrating-from-helium-console",
+      "title": "Migrating a sensor from Helium Console to Chirpstack",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "device-guides/browan-tabs-object-locator-guide": {

@@ -124,6 +124,30 @@
               "previous": {
                 "title": "Importing Trackpac API into Postman",
                 "permalink": "/docs/api-guides/importing-into-postman"
+              },
+              "next": {
+                "title": "Migrating a sensor from Helium Console to Chirpstack",
+                "permalink": "/docs/chirpstack-guides/migrating-from-helium-console"
+              }
+            },
+            {
+              "unversionedId": "chirpstack-guides/migrating-from-helium-console",
+              "id": "chirpstack-guides/migrating-from-helium-console",
+              "title": "Migrating a sensor from Helium Console to Chirpstack",
+              "description": "Introduction",
+              "source": "@site/docs/chirpstack-guides/migrating-from-helium-console.md",
+              "sourceDirName": "chirpstack-guides",
+              "slug": "/chirpstack-guides/migrating-from-helium-console",
+              "permalink": "/docs/chirpstack-guides/migrating-from-helium-console",
+              "draft": false,
+              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/chirpstack-guides/migrating-from-helium-console.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Location Engine API Resolution",
+                "permalink": "/docs/api-guides/location-engine"
               }
             },
             {
@@ -594,6 +618,18 @@
                   {
                     "type": "doc",
                     "id": "api-guides/location-engine"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "ChirpStack Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "chirpstack-guides/migrating-from-helium-console"
                   }
                 ],
                 "collapsed": true,

@@ -16,5 +16,9 @@
   "previous": {
     "title": "Importing Trackpac API into Postman",
     "permalink": "/docs/api-guides/importing-into-postman"
+  },
+  "next": {
+    "title": "Migrating a sensor from Helium Console to Chirpstack",
+    "permalink": "/docs/chirpstack-guides/migrating-from-helium-console"
   }
 }

@@ -54,6 +54,11 @@ const sidebars = {
         "api-guides/location-engine",
       ],
     },
+    {
+      type: "category",
+      label: "ChirpStack Guides",
+      items: ["chirpstack-guides/migrating-from-helium-console"],
+    },
   ],
 };
 

@@ -35,6 +35,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "chirpstack-guides/migrating-from-helium-console",
+              "path": "/docs/chirpstack-guides/migrating-from-helium-console",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "device-guides/browan-tabs-object-locator-guide",
               "path": "/docs/device-guides/browan-tabs-object-locator-guide",
               "sidebar": "tutorialSidebar"

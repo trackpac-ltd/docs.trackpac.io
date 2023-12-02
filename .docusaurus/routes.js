@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dd8'),
+    component: ComponentCreator('/docs', 'a6b'),
     routes: [
       {
         path: '/docs/advanced-guides/introduction',
@@ -127,6 +127,12 @@ export default [
       {
         path: '/docs/api-guides/location-engine',
         component: ComponentCreator('/docs/api-guides/location-engine', '019'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/chirpstack-guides/migrating-from-helium-console',
+        component: ComponentCreator('/docs/chirpstack-guides/migrating-from-helium-console', '9c9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
