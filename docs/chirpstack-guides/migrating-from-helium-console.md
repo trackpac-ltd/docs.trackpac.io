@@ -36,7 +36,7 @@ Creating and managing device profiles is a critical first step in migrating your
 4. **Save the Device Profile**: After entering all the necessary details, save the profile. This profile will be used when registering your devices in the next steps.
 
 5. **Add the codec**: If you were not lucky enough to find a premade template you will need to add a codec. Think of the codec as a function on Helium console, this is where your devices decoder sits.
-   If you have selected a predefined template this will be filled in for you already. If you are adding a new device profile without template you will need to copy your function here.
+   If you have selected a predefined template this will be filled in for you already. If you are adding a new device profile without template you will need to copy your function here from your function on Helium Console.
 
 ![Device Codec](../assets/device-codec.png)
 
