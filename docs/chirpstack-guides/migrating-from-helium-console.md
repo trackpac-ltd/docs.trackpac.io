@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The recent shift in the Helium IoT landscape has led to a forced migration for many Helium Console users. When a user wants to also use more than 10 devices on Helium Foundation console, they will also need to move to chirpstack.This guide is specifically tailored to address the needs of those moving their IoT devices from Helium Console to ChirpStack. It's crucial to understand the steps involved to ensure a smooth and uninterrupted service for your IoT devices.
+The recent shift in the Helium IoT landscape has led to a forced migration for many Helium Console users. When a user wants to also use more than 10 devices on Helium Foundation console, they will also need to move to Chirpstack. This guide is specifically tailored to address the needs of those moving their IoT devices from Helium Console to ChirpStack. It's crucial to understand the steps involved to ensure a smooth and uninterrupted service for your IoT devices.
 
-Helium Console has been a significant part of the Helium IoT network, providing a user-friendly platform for device management. However, for scale and longevity, users must now adapt to ChirpStack, an open-source alternative that offers customizable features and enhanced control over IoT deployments.
+Helium Console has been a significant part of the Helium IoT network, providing a user-friendly platform for device management. However, for scale and longevity, users must now adapt to ChirpStack, an open-source alternative that offers customizable features and enhanced control over IoT deployments. It also supports the latest LoRaWAN specs and allows things like CLASS C devices to work on the Helium network.
 
 This transition might seem daunting, but it’s an opportunity to explore new functionalities and potentially improve your IoT network's efficiency and scalability. Our guide is designed to demystify the process, providing a clear, step-by-step approach to moving your devices from Helium Console to ChirpStack.
 
@@ -18,8 +18,6 @@ To ensure a successful migration, please ensure the following prerequisites are 
 
 3. **Device Details**: Compile all relevant device information from Helium Console, including Device EUI, Application EUI, and APP KEY and other configuration settings required for setting up your device on ChirpStack.
 
-4. **Basic Technical Knowledge**: A fundamental understanding of IoT networks and device configuration is beneficial. This guide assumes that you have a basic familiarity with LoRaWAN® technology and networking concepts.
-
 ## Step 1. Device Profiles
 
 Creating and managing device profiles is a critical first step in migrating your IoT devices from Helium Console to ChirpStack. A device profile in ChirpStack encapsulates various parameters and settings that define how your device communicates within the network. Here's how you can set up your device profiles:
@@ -28,12 +26,18 @@ Creating and managing device profiles is a critical first step in migrating your
 
 2. **Navigate to 'Device Profiles'**: In the ChirpStack dashboard, locate and click on the 'Device Profiles' section. This is where you will define the characteristics of your IoT devices.
 
-3. **Create a New Device Profile**: Click on the 'Create' button to start defining a new device profile. Some devices have predefined templates you can choose from top right of the screen. You will need to enter specific information such as device profile name, description, and LoRaWAN® MAC version that matches your device's specifications (usually 1.0.3). A device profile is needed per region as regions are set in the device profile.
+![Chirpstack Device Profiles](../assets/device-profiles.png)
+
+3. **Create a New Device Profile**: Click on the 'Add Device Profile' button to start defining a new device profile. Some devices have predefined templates you can choose from top right of the screen selecting "Select device profile template". You will need to enter specific information such as device profile name, description, and LoRaWAN® MAC version that matches your device's specifications (if in doubt, try 1.0.3). A device profile is needed per region as regions are set in the device profile, so set this here. If you are operating in more than one region, you will need to create a device profile for each.
+
+![Chirpstack Device Profile](../assets/add-device-profile.png)
 
 4. **Save the Device Profile**: After entering all the necessary details, save the profile. This profile will be used when registering your devices in the next steps.
 
 5. **Add the codec**: If you were not lucky enough to find a premade template you will need to add a codec. Think of the codec as a function on Helium console, this is where your devices decoder sits.
    If you have selected a predefined template this will be filled in for you already. If you are adding a new device profile without template you will need to copy your function here.
+
+![Device Codec](../assets/device-codec.png)
 
 NOTE: if you are copying in your function from helium to chirpstack, your function will need some editing.
 
@@ -80,6 +84,8 @@ In the following sections, we will guide you through exporting device details fr
 
 An application in ChirpStack acts like a label, organizing devices and routing data to endpoints.
 
+![Chirpstack Applications](../assets/applications.png)
+
 1. **Create a New Application**: Click 'Add Application', enter a name and optional description, then save.
 
 2. **Specify an Integration**: Choose where the data is delivered, such as MQTT or HTTP, and set the endpoint.
@@ -87,6 +93,8 @@ An application in ChirpStack acts like a label, organizing devices and routing d
 ## Step 3. Add Your Device to the Application
 
 This step integrates your work from Step 1 and 2.
+
+![Chirpstack Add Device](../assets/application-add-device.png)
 
 1. **Device Registration**: Set a name, enter the dev_eui, and app_eui (labeled as join_eui in ChirpStack). Also select your new device profile created in step 1.
 
