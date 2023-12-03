@@ -48,7 +48,7 @@ Secondly, the naming of the function is slightly different
 
 Finally, the return of the function is also slightly different.
 
-your function may have looked like this before:
+Your function may have looked like this before:
 
 ```javascript
 function Decoder(bytes, port) {
@@ -67,17 +67,17 @@ function decodeUplink(input) {
   var bytes = input.bytes;
   var port = input.fPort; //check your function doesnt expect fPort, if it does rename the var.
 
-  var decoded = {};
+  var decoded = {}; //check this variable name too, your existing function may name this differently and then return it.
 
   // decoder function here
 
-  return { data: decoded };
+  return { data: decoded }; //matching the decoded var name
 }
 ```
 
 6. **Note for Multiple Devices**: If you are migrating multiple devices that share the same specifications, you can use the same device profile for all of them. Otherwise, repeat this process to create unique profiles for different types of devices.
 
-This step sets the foundation for your devices in the ChirpStack environment, ensuring that they are correctly configured for communication and functionality within the new network.
+This step sets the foundation for your devices in the ChirpStack environment, ensuring that they are correctly configured for communication and functionality using ChirpStack.
 
 In the following sections, we will guide you through exporting device details from Helium Console and registering your devices in ChirpStack using these profiles.
 
@@ -89,7 +89,7 @@ An application in ChirpStack acts like a label, organizing devices and routing d
 
 1. **Create a New Application**: Click 'Add Application', enter a name and optional description, then save.
 
-2. **Specify an Integration**: Choose where the data is delivered, such as MQTT or HTTP, and set the endpoint.
+2. **Click the Integration Tab**: Choose where the data is delivered, such as MQTT or HTTP, and set the endpoint. On HTTP, multpule delivery points can be set, seperate them with a ,
 
 ## Step 3. Add Your Device to the Application
 
