@@ -28,7 +28,8 @@ Creating and managing device profiles is a critical first step in migrating your
 
 ![Chirpstack Device Profiles](../assets/device-profiles.png)
 
-3. **Create a New Device Profile**: Click on the 'Add Device Profile' button to start defining a new device profile. Some devices have predefined templates you can choose from top right of the screen selecting "Select device profile template". You will need to enter specific information such as device profile name, description, and LoRaWAN® MAC version that matches your device's specifications (if in doubt, try 1.0.3). A device profile is needed per region as regions are set in the device profile, so set this here. If you are operating in more than one region, you will need to create a device profile for each.
+3. **Create a New Device Profile**: Click on the 'Add Device Profile' button to start defining a new device profile. Some devices have predefined templates you can choose from top right of the screen selecting "Select device profile template".
+   If you were able to find a device profile template, you will likely not need to edit any more settings. if not, you will need to enter specific information such as device profile name, description, and LoRaWAN® MAC version that matches your device's specifications (if in doubt, try 1.0.3). A device profile is needed per region as regions are set in the device profile, so set this here. If you are operating in more than one region, you will need to create a device profile for each.
 
 ![Chirpstack Device Profile](../assets/add-device-profile.png)
 
