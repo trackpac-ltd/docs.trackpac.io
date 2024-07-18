@@ -63,17 +63,16 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 - The port should be set to 1.
 
 - here are a few common commands for faster rates:
-
-5 minutes: AgAF
-10 minutes: AgAK
-15 minutes: AgAP
-20 minutes: AgAU
-30 minutes: AgAe
-1 hour: AgA8
-2 hours: AgB4
-6 hours: AgFo
-12 hours: AgLQ
-24 hours: AgWg
+  - 5 minutes: AgAF
+  - 10 minutes: AgAK
+  - 15 minutes: AgAP
+  - 20 minutes: AgAU
+  - 30 minutes: AgAe
+  - 1 hour: AgA8
+  - 2 hours: AgB4
+  - 6 hours: AgFo
+  - 12 hours: AgLQ
+  - 24 hours: AgWg
 
 ### Next Steps
 
