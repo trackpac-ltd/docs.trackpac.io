@@ -62,7 +62,8 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 
 - The port should be set to 1.
 
-- here are a few common commands for faster rates:
+- Here are a few common commands for different rates:
+
   - 5 minutes: AgAF
   - 10 minutes: AgAK
   - 15 minutes: AgAP
@@ -77,7 +78,7 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 ### Next Steps
 
 - **[Add a Contact](../getting-started/add-a-contact)** - Setup contacts to get notifications
-- **[Add a Base](../getting-started/add-a-base)** - Get notifications when a tag enters or exits an area
+- **[Add a Geofence](../getting-started/add-a-geofence)** - Get notifications when a tag enters or exits an area
 - **[Add an Action](../getting-started/add-an-action)** - Setup alerts for temperature warnings
 
 ---
