@@ -1,5 +1,4 @@
 {
-  "unversionedId": "device-guides/rak-sticker-guide",
   "id": "device-guides/rak-sticker-guide",
   "title": "RAKWireless RAK2270",
   "description": "The RAKwireless 2270 Sticker Tracker",
@@ -8,6 +7,7 @@
   "slug": "/device-guides/rak-sticker-guide",
   "permalink": "/docs/device-guides/rak-sticker-guide",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/rak-sticker-guide.md",
   "tags": [],
   "version": "current",

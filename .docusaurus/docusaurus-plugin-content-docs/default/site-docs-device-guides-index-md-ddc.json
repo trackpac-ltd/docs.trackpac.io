@@ -1,5 +1,4 @@
 {
-  "unversionedId": "device-guides/index",
   "id": "device-guides/index",
   "title": "Intro",
   "description": "This section is full of device-specific guides, showing you the process from arrival right through to monitoring them and adding alerts.",
@@ -8,6 +7,7 @@
   "slug": "/device-guides/",
   "permalink": "/docs/device-guides/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/index.md",
   "tags": [],
   "version": "current",

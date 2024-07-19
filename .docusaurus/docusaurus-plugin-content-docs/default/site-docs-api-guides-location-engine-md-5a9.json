@@ -1,5 +1,4 @@
 {
-  "unversionedId": "api-guides/location-engine",
   "id": "api-guides/location-engine",
   "title": "Location Engine API Resolution",
   "description": "Our Location engine offers two modes of resolution, LoRaWAN and WIFI.",
@@ -8,6 +7,7 @@
   "slug": "/api-guides/location-engine",
   "permalink": "/docs/api-guides/location-engine",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/location-engine.md",
   "tags": [],
   "version": "current",

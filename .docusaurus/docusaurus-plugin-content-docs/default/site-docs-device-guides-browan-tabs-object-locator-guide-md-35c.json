@@ -1,5 +1,4 @@
 {
-  "unversionedId": "device-guides/browan-tabs-object-locator-guide",
   "id": "device-guides/browan-tabs-object-locator-guide",
   "title": "Browan Tabs TBOL100",
   "description": "Getting started with a Browan tabs object locator couldnt be easier. Follow our step-by-step guide below to get started.",
@@ -8,6 +7,7 @@
   "slug": "/device-guides/browan-tabs-object-locator-guide",
   "permalink": "/docs/device-guides/browan-tabs-object-locator-guide",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/browan-tabs-object-locator-guide.md",
   "tags": [],
   "version": "current",

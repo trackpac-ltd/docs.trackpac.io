@@ -1,5 +1,4 @@
 {
-  "unversionedId": "getting-started/add-an-action",
   "id": "getting-started/add-an-action",
   "title": "Add an Action",
   "description": "Use this guide to set up a new action that triggers alerts or forwards data based on various conditions.",
@@ -8,6 +7,7 @@
   "slug": "/getting-started/add-an-action",
   "permalink": "/docs/getting-started/add-an-action",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-an-action.md",
   "tags": [],
   "version": "current",

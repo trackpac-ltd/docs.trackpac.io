@@ -1,5 +1,4 @@
 {
-  "unversionedId": "api-guides/authenticating",
   "id": "api-guides/authenticating",
   "title": "Authenticating with the Trackpac API",
   "description": "This guide outlines two methods to authenticate your API requests with Trackpac: retrieving the Auth0 bearer token from local storage or obtaining the token via a curl request.",
@@ -8,6 +7,7 @@
   "slug": "/api-guides/authenticating",
   "permalink": "/docs/api-guides/authenticating",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/authenticating.md",
   "tags": [],
   "version": "current",

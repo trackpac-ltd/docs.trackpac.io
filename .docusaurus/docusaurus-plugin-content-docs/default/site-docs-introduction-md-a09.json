@@ -1,5 +1,4 @@
 {
-  "unversionedId": "introduction",
   "id": "introduction",
   "title": "Introduction",
   "description": "What is Trackpac?",
@@ -8,6 +7,7 @@
   "slug": "/introduction",
   "permalink": "/docs/introduction",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/introduction.md",
   "tags": [],
   "version": "current",

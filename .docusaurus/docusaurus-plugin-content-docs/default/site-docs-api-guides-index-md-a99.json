@@ -1,5 +1,4 @@
 {
-  "unversionedId": "api-guides/index",
   "id": "api-guides/index",
   "title": "Introduction",
   "description": "Welcome to the Trackpac API Guides section! The Trackpac API allows you to interact programmatically with our IoT dashboard, offering capabilities like alerts, actions, forwarders, and more. Whether you're an administrator, developer, or end-user, this guide aims to provide you with comprehensive instructions and examples to get you up to speed.",
@@ -8,6 +7,7 @@
   "slug": "/api-guides/",
   "permalink": "/docs/api-guides/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/api-guides/index.md",
   "tags": [],
   "version": "current",

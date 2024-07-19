@@ -1,5 +1,4 @@
 {
-  "unversionedId": "getting-started/add-a-geofence",
   "id": "getting-started/add-a-geofence",
   "title": "Add a Geofence",
   "description": "If your device is an asset tracker, you can add a geofence to get alerts when a tracker enters or exits and area.",
@@ -8,6 +7,7 @@
   "slug": "/getting-started/add-a-geofence",
   "permalink": "/docs/getting-started/add-a-geofence",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-geofence.md",
   "tags": [],
   "version": "current",
@@ -21,7 +21,7 @@
     "permalink": "/docs/getting-started/add-an-action"
   },
   "next": {
-    "title": "Add a Base",
-    "permalink": "/docs/getting-started/add-a-base"
+    "title": "Organisations",
+    "permalink": "/docs/getting-started/manage-organisations"
   }
 }

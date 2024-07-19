@@ -51,12 +51,6 @@
           },
           {
             "type": "link",
-            "label": "Add a Base",
-            "href": "/docs/getting-started/add-a-base",
-            "docId": "getting-started/add-a-base"
-          },
-          {
-            "type": "link",
             "label": "Organisations",
             "href": "/docs/getting-started/manage-organisations",
             "docId": "getting-started/manage-organisations"
@@ -223,12 +217,6 @@
       "description": "Welcome to the list of devices that are compatible with Trackpac! Our platform is designed to be versatile and support a wide range of IoT devices. We're always adding new devices to our list.",
       "sidebar": "tutorialSidebar"
     },
-    "getting-started/add-a-base": {
-      "id": "getting-started/add-a-base",
-      "title": "Add a Base",
-      "description": "If your device is a sticker Tracker (Nanothings Nanotag or RAKwireless 2270 Sticker Tracker) you can add bases for your stickers.",
-      "sidebar": "tutorialSidebar"
-    },
     "getting-started/add-a-contact": {
       "id": "getting-started/add-a-contact",
       "title": "Add a Contact",
@@ -276,11 +264,6 @@
       "title": "Introduction",
       "description": "What is Trackpac?",
       "sidebar": "tutorialSidebar"
-    },
-    "introduction 2": {
-      "id": "introduction 2",
-      "title": "Introduction",
-      "description": "What is Trackpac?"
     }
   }
 }

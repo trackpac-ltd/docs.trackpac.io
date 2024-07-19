@@ -1,5 +1,4 @@
 {
-  "unversionedId": "device-guides/sensecap-t1000",
   "id": "device-guides/sensecap-t1000",
   "title": "SenseCAP T1000",
   "description": "Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guide.",
@@ -8,6 +7,7 @@
   "slug": "/device-guides/sensecap-t1000",
   "permalink": "/docs/device-guides/sensecap-t1000",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/device-guides/sensecap-t1000.md",
   "tags": [],
   "version": "current",

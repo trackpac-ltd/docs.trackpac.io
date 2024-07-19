@@ -103,10 +103,6 @@
               "id": "introduction",
               "path": "/docs/introduction",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction 2",
-              "path": "/docs/introduction 2"
             }
           ],
           "draftIds": [],

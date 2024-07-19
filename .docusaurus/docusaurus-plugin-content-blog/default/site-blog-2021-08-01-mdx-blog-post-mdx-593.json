@@ -4,9 +4,9 @@
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
   "date": "2021-08-01T00:00:00.000Z",
-  "formattedDate": "August 1, 2021",
   "tags": [
     {
+      "inline": true,
       "label": "docusaurus",
       "permalink": "/blog/tags/docusaurus"
     }
@@ -32,6 +32,7 @@
       "docusaurus"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"

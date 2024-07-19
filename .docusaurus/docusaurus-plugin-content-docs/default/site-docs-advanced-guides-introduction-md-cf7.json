@@ -1,5 +1,4 @@
 {
-  "unversionedId": "advanced-guides/introduction",
   "id": "advanced-guides/introduction",
   "title": "Introduction",
   "description": "Throughout Trackpac we offer a range of ways to use our platform. In this section we'll talk about some advanced options for our platform and how to use them.",
@@ -8,6 +7,7 @@
   "slug": "/advanced-guides/introduction",
   "permalink": "/docs/advanced-guides/introduction",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/advanced-guides/introduction.md",
   "tags": [],
   "version": "current",

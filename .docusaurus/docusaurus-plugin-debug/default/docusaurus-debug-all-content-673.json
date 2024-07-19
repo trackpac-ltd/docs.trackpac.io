@@ -271,33 +271,6 @@
               }
             },
             {
-              "unversionedId": "getting-started/add-a-base",
-              "id": "getting-started/add-a-base",
-              "title": "Add a Base",
-              "description": "If your device is a sticker Tracker (Nanothings Nanotag or RAKwireless 2270 Sticker Tracker) you can add bases for your stickers.",
-              "source": "@site/docs/getting-started/add-a-base.md",
-              "sourceDirName": "getting-started",
-              "slug": "/getting-started/add-a-base",
-              "permalink": "/docs/getting-started/add-a-base",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/add-a-base.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Add a Geofence",
-                "permalink": "/docs/getting-started/add-a-geofence"
-              },
-              "next": {
-                "title": "Organisations",
-                "permalink": "/docs/getting-started/manage-organisations"
-              }
-            },
-            {
               "unversionedId": "getting-started/add-a-contact",
               "id": "getting-started/add-a-contact",
               "title": "Add a Contact",
@@ -371,8 +344,8 @@
                 "permalink": "/docs/getting-started/add-an-action"
               },
               "next": {
-                "title": "Add a Base",
-                "permalink": "/docs/getting-started/add-a-base"
+                "title": "Organisations",
+                "permalink": "/docs/getting-started/manage-organisations"
               }
             },
             {
@@ -445,8 +418,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Add a Base",
-                "permalink": "/docs/getting-started/add-a-base"
+                "title": "Add a Geofence",
+                "permalink": "/docs/getting-started/add-a-geofence"
               },
               "next": {
                 "title": "Managing a Device",
@@ -502,24 +475,6 @@
                 "title": "Sign up",
                 "permalink": "/docs/getting-started/"
               }
-            },
-            {
-              "unversionedId": "introduction 2",
-              "id": "introduction 2",
-              "title": "Introduction",
-              "description": "What is Trackpac?",
-              "source": "@site/docs/introduction 2.md",
-              "sourceDirName": ".",
-              "slug": "/introduction 2",
-              "permalink": "/docs/introduction 2",
-              "draft": false,
-              "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/introduction 2.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              }
             }
           ],
           "drafts": [],
@@ -554,10 +509,6 @@
                   {
                     "type": "doc",
                     "id": "getting-started/add-a-geofence"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "getting-started/add-a-base"
                   },
                   {
                     "type": "doc",

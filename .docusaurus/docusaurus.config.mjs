@@ -113,7 +113,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Trackpac Ltd."
+      "copyright": "Copyright © 2024 Trackpac Ltd."
     },
     "prism": {
       "theme": {
@@ -338,6 +338,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
+  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -351,6 +359,15 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {
-    "mermaid": false
+    "format": "mdx",
+    "mermaid": false,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
   }
 };

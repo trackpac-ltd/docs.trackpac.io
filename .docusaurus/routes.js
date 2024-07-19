@@ -4,232 +4,233 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '351'),
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'a14'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '9cb'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e2e'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '270'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '7ba'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '3b6'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '7ce'),
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '561'),
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '675'),
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '7fb'),
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '6da'),
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'e5d'),
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'a07'),
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '687'),
+    component: ComponentCreator('/blog/tags/facebook', '858'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '6c4'),
+    component: ComponentCreator('/blog/tags/hello', '299'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '089'),
+    component: ComponentCreator('/blog/tags/hola', '00d'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '7ae'),
+    component: ComponentCreator('/blog/welcome', 'd2b'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'b80'),
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a6b'),
+    component: ComponentCreator('/docs', '2de'),
     routes: [
       {
-        path: '/docs/advanced-guides/introduction',
-        component: ComponentCreator('/docs/advanced-guides/introduction', '019'),
-        exact: true
-      },
-      {
-        path: '/docs/api-guides/',
-        component: ComponentCreator('/docs/api-guides/', '363'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/api-guides/authenticating',
-        component: ComponentCreator('/docs/api-guides/authenticating', 'bc1'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/api-guides/importing-into-postman',
-        component: ComponentCreator('/docs/api-guides/importing-into-postman', '9ee'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/api-guides/location-engine',
-        component: ComponentCreator('/docs/api-guides/location-engine', '019'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chirpstack-guides/migrating-from-helium-console',
-        component: ComponentCreator('/docs/chirpstack-guides/migrating-from-helium-console', '9c9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/device-guides/',
-        component: ComponentCreator('/docs/device-guides/', '9ab'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/device-guides/browan-tabs-object-locator-guide',
-        component: ComponentCreator('/docs/device-guides/browan-tabs-object-locator-guide', 'dc2'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/device-guides/rak-sticker-guide',
-        component: ComponentCreator('/docs/device-guides/rak-sticker-guide', 'b82'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/device-guides/sensecap-t1000',
-        component: ComponentCreator('/docs/device-guides/sensecap-t1000', 'b35'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/device-guides/supported-devices',
-        component: ComponentCreator('/docs/device-guides/supported-devices', '9fd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/',
-        component: ComponentCreator('/docs/getting-started/', 'cd1'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/add-a-base',
-        component: ComponentCreator('/docs/getting-started/add-a-base', '636'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/add-a-contact',
-        component: ComponentCreator('/docs/getting-started/add-a-contact', '099'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/add-a-device',
-        component: ComponentCreator('/docs/getting-started/add-a-device', '167'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/add-a-geofence',
-        component: ComponentCreator('/docs/getting-started/add-a-geofence', '868'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/add-an-action',
-        component: ComponentCreator('/docs/getting-started/add-an-action', '8f6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/manage-organisations',
-        component: ComponentCreator('/docs/getting-started/manage-organisations', 'd9f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/getting-started/managing-a-device',
-        component: ComponentCreator('/docs/getting-started/managing-a-device', 'e2f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/introduction',
-        component: ComponentCreator('/docs/introduction', '457'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/introduction 2',
-        component: ComponentCreator('/docs/introduction 2', '1ad'),
-        exact: true
+        path: '/docs',
+        component: ComponentCreator('/docs', '402'),
+        routes: [
+          {
+            path: '/docs',
+            component: ComponentCreator('/docs', '5d2'),
+            routes: [
+              {
+                path: '/docs/advanced-guides/introduction',
+                component: ComponentCreator('/docs/advanced-guides/introduction', '45a'),
+                exact: true
+              },
+              {
+                path: '/docs/api-guides/',
+                component: ComponentCreator('/docs/api-guides/', 'c02'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/api-guides/authenticating',
+                component: ComponentCreator('/docs/api-guides/authenticating', 'b3d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/api-guides/importing-into-postman',
+                component: ComponentCreator('/docs/api-guides/importing-into-postman', '23b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/api-guides/location-engine',
+                component: ComponentCreator('/docs/api-guides/location-engine', '5a6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chirpstack-guides/migrating-from-helium-console',
+                component: ComponentCreator('/docs/chirpstack-guides/migrating-from-helium-console', '236'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/device-guides/',
+                component: ComponentCreator('/docs/device-guides/', 'ea4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/device-guides/browan-tabs-object-locator-guide',
+                component: ComponentCreator('/docs/device-guides/browan-tabs-object-locator-guide', '720'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/device-guides/rak-sticker-guide',
+                component: ComponentCreator('/docs/device-guides/rak-sticker-guide', '29b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/device-guides/sensecap-t1000',
+                component: ComponentCreator('/docs/device-guides/sensecap-t1000', '958'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/device-guides/supported-devices',
+                component: ComponentCreator('/docs/device-guides/supported-devices', '1b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/',
+                component: ComponentCreator('/docs/getting-started/', '474'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/add-a-contact',
+                component: ComponentCreator('/docs/getting-started/add-a-contact', '3e4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/add-a-device',
+                component: ComponentCreator('/docs/getting-started/add-a-device', 'e77'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/add-a-geofence',
+                component: ComponentCreator('/docs/getting-started/add-a-geofence', '1c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/add-an-action',
+                component: ComponentCreator('/docs/getting-started/add-an-action', 'a93'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/manage-organisations',
+                component: ComponentCreator('/docs/getting-started/manage-organisations', 'e36'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/managing-a-device',
+                component: ComponentCreator('/docs/getting-started/managing-a-device', '07d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/introduction',
+                component: ComponentCreator('/docs/introduction', 'f7d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     path: '/',
-    component: ComponentCreator('/', '9e2'),
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

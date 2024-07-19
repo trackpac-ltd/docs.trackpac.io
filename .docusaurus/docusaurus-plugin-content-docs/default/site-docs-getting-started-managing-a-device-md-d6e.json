@@ -1,5 +1,4 @@
 {
-  "unversionedId": "getting-started/managing-a-device",
   "id": "getting-started/managing-a-device",
   "title": "Managing a Device",
   "description": "Our platform aims to provide an intuitive user experience while accommodating a variety of device types, each with unique features and capabilities. Whether you're monitoring a temperature sensor or a tracking device, the necessary data is displayed in an organized and customizable manner.",
@@ -8,6 +7,7 @@
   "slug": "/getting-started/managing-a-device",
   "permalink": "/docs/getting-started/managing-a-device",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/getting-started/managing-a-device.md",
   "tags": [],
   "version": "current",
