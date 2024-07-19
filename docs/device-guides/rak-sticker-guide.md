@@ -77,9 +77,9 @@ Navigate to [https://v2.trackpac.io](https://v2.trackpac.io) — your central pl
 
 ### Next Steps
 
-- **[Add a Contact](../getting-started/add-a-contact)** - Setup contacts to get notifications
-- **[Add a Geofence](../getting-started/add-a-geofence)** - Get notifications when a tag enters or exits an area
-- **[Add an Action](../getting-started/add-an-action)** - Setup alerts for temperature warnings
+- **[Add a Contact](../../getting-started/add-a-contact)** - Setup contacts to get notifications
+- **[Add a Geofence](../../getting-started/add-a-geofence)** - Get notifications when a tag enters or exits an area
+- **[Add an Action](../../getting-started/add-an-action)** - Setup alerts for temperature warnings
 
 ---
 
