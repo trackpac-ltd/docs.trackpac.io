@@ -16,7 +16,6 @@ Welcome to the list of devices that are compatible with Trackpac! Our platform i
 - Digital Matter Yabby 3
 - Digital Matter Yabby Edge
 - Dragino LAQ4
-- Dragino LAQ4
 - Dragino LDDS20
 - Dragino LDS02
 - Dragino LGT92
