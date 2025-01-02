@@ -113,7 +113,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Trackpac Ltd."
+      "copyright": "Copyright © 2025 Trackpac Ltd."
     },
     "prism": {
       "theme": {
