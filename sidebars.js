@@ -56,7 +56,10 @@ const sidebars = {
     {
       type: "category",
       label: "ChirpStack Guides",
-      items: ["chirpstack-guides/migrating-from-helium-console"],
+      items: [
+        "chirpstack-guides/migrating-from-helium-console",
+        "chirpstack-guides/migrating-from-ttn-to-chirpstack",
+      ],
     },
   ],
 };
