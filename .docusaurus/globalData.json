@@ -40,6 +40,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "chirpstack-guides/migrating-from-ttn-to-chirpstack",
+              "path": "/docs/chirpstack-guides/migrating-from-ttn-to-chirpstack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "device-guides/browan-tabs-object-locator-guide",
               "path": "/docs/device-guides/browan-tabs-object-locator-guide",
               "sidebar": "tutorialSidebar"

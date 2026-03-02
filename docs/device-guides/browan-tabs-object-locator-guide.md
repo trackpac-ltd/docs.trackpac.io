@@ -4,7 +4,7 @@ Getting started with a Browan tabs object locator couldnt be easier. Follow our 
 
 ## Create or Log in to Your Trackpac Account
 
-- **First-time User**: Login to our portal at: [https://v2.trackpac.io](https://v2.trackpac.io). You can use Social logins to login or sign up with a username and password.
+- **First-time User**: Login to our portal at: [https://app.trackpac.io](https://app.trackpac.io). You can use Social logins to login or sign up with a username and password.
 
 ---
 
@@ -36,7 +36,7 @@ This option hosts the device on Trackpac's LNS. you will need the dev_eui, app_e
 
 If you wish to host the device yourself and forward the data to us, this is the option to pick. Choose the option to self-host and follow the guidelines to set up the device on your own LoRaWAN server.
 
-Ingest routes for devices can be found here: https://v2-api.trackpac.io/docs
+Ingest routes for devices can be found here: https://api.trackpac.io/docs
 
 **Congratulations**! You've now successfully signed up and added a device. You're ready to activate your device.
 
@@ -65,4 +65,4 @@ The tabs update every 30 seconds when moving, and every 3 hours when static. If 
 ## Next Steps
 
 - **[Add a Contact](../getting-started/add-a-contact)** - Setup contacts to get notifications
-- **[Add a Geofence](../getting-started/add-a-base)** - Get notifications when your tab enters or exits an area
+- **[Add a Geofence](../getting-started/add-a-geofence)** - Get notifications when your tab enters or exits an area

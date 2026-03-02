@@ -16,5 +16,9 @@
   "previous": {
     "title": "Location Engine API Resolution",
     "permalink": "/docs/api-guides/location-engine"
+  },
+  "next": {
+    "title": "Migrating a Sensor from TTN to ChirpStack",
+    "permalink": "/docs/chirpstack-guides/migrating-from-ttn-to-chirpstack"
   }
 }

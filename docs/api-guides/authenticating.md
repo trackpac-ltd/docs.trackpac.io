@@ -1,59 +1,81 @@
 # Authenticating with the Trackpac API
 
-This guide outlines two methods to authenticate your API requests with Trackpac: retrieving the Auth0 bearer token from local storage or obtaining the token via a `curl` request.
+Trackpac supports two authentication methods:
 
-## Prerequisites
+- `X-API-Key` header, which is the preferred option for all API integrations
+- Bearer tokens, which remain available for legacy workflows
 
-- A Trackpac account
-- Google Chrome browser for local storage retrieval (if using that method)
-- Terminal access for making API calls (if using `curl`)
+## Recommended: Use an API Key
 
-## Retrieve Auth0 Bearer Token from Local Storage
+API keys are easier to manage than login-based bearer tokens and work across the full API.
 
-1. **Navigate to Trackpac**: Open Google Chrome and go to the Trackpac web application.
+### Generate an API key
 
-2. **Open Developer Tools**: Right-click and select "Inspect" or use `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Opt+I` (Mac).
+1. Sign in to the Trackpac app at [https://app.trackpac.io](https://app.trackpac.io).
+2. Open your account page at [https://app.trackpac.io/account](https://app.trackpac.io/account).
+3. Create a new API key and give it a friendly name of at least 3 characters.
+4. Copy and store the API key immediately. For security, it is only shown once and is stored hashed on our side.
 
-3. **Go to the Application Tab**: Select the "Application" tab in Developer Tools.
+Use the account menu to open your account page:
 
-4. **Expand Local Storage**: Find "Local Storage" on the left sidebar and expand it.
+![Account Menu](../assets/header-my-account.png)
 
-5. **Select Your Domain**: Click on the Trackpac domain to display key-value pairs.
+![My Account Menu Item](../assets/my-account-menu.png)
 
-6. **Find `access_token`**: Locate the `access_token` key.
+Then follow the API key creation flow:
 
-7. **Copy Token**: Double-click to select the `access_token` value and copy it.
+![Generate API Key](../assets/generate-api-key-new.png)
 
-## Obtain Token via Curl Request
+![Set API Key Name](../assets/set-api-key-name.png)
 
-1. **Open Terminal**: Access your terminal.
+![Copy API Key](../assets/copy-api-key.png)
 
-2. **Use Curl to Login**: Run the following sample `curl` command to obtain the Auth0 token. Replace the placeholders with your actual credentials.
+You can also revoke existing API keys from the same account page at any time.
 
-   ```bash
-   curl --request POST \
-     --url https://v2-api.trackpac.io/user/login \
-     --header 'content-type: application/json' \
-     --data '{
-       "email": "YOUR_EMAIL",
-       "password": "YOUR_PASSWORD"
-     }'
-   ```
+### Use the API key in requests
 
-3. **Retrieve Token**: You'll receive a JSON response containing the `access_token`. Copy and store it securely.
+Send your API key in the `X-API-Key` header on every request:
 
-   ```json
-   {
-     "access_token": "ACCESS_TOKEN",
-     "expires_in": 86400,
-     "token_type": "Bearer"
-   }
-   ```
+```bash
+curl --request GET \
+  --url https://api.trackpac.io/devices \
+  --header 'X-API-Key: YOUR_API_KEY'
+```
 
----
+## Legacy: Use a Bearer Token
 
-**Important**: Tokens are sensitive information. Do not share or publish them publicly.
+Bearer-token authentication is still available for existing integrations, but new integrations should use API keys instead.
 
----
+```bash
+curl --request POST \
+  --url https://api.trackpac.io/user/login \
+  --header 'content-type: application/json' \
+  --data '{
+    "email": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD"
+  }'
+```
 
-You can use either of these methods to obtain your Auth0 bearer token for authenticating your API requests with Trackpac.
+Example response:
+
+```json
+{
+  "access_token": "ACCESS_TOKEN",
+  "expires_in": 86400,
+  "token_type": "Bearer"
+}
+```
+
+Use the returned token in the `Authorization` header:
+
+```bash
+curl --request GET \
+  --url https://api.trackpac.io/devices \
+  --header 'Authorization: Bearer ACCESS_TOKEN'
+```
+
+## Security Notes
+
+- Treat API keys and bearer tokens like passwords.
+- Store credentials in a secret manager or environment variable, not in source control.
+- Revoke and replace an API key immediately if it is exposed.

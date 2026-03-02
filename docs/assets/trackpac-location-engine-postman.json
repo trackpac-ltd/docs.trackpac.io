@@ -11,7 +11,16 @@
 			"name": "Resolve LoRaWAN",
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-API-Key",
+						"value": "YOUR_API_KEY"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n    \"hotspots\": [\n        {\n            \"latitude\": 0.0000,\n            \"longitude\": 0.0000,\n            \"rssi\": -120\n        },\n        {\n            \"latitude\": 0.0001,\n            \"longitude\": 0.0001,\n            \"rssi\": -110\n        }\n    ]\n}",
@@ -22,22 +31,16 @@
 					}
 				},
 				"url": {
-					"raw": "https://v2-api.trackpac.io/location-engine/resolve?api_key=XYZ",
+					"raw": "https://api.trackpac.io/location-engine/resolve",
 					"protocol": "https",
 					"host": [
-						"v2-api",
+						"api",
 						"trackpac",
 						"io"
 					],
 					"path": [
 						"location-engine",
 						"resolve"
-					],
-					"query": [
-						{
-							"key": "api_key",
-							"value": "XYZ"
-						}
 					]
 				}
 			},
@@ -47,7 +50,16 @@
 			"name": "Resolve WiFi",
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-API-Key",
+						"value": "YOUR_API_KEY"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n    \"networks\": [\n        {\n            \"bssid\": \"FF:FF:FF:FF:FF:FF\",\n            \"rssi\": -80\n        },\n        {\n            \"bssid\": \"FF:FF:FF:FF:FF:FA\",\n            \"rssi\": -80\n        }\n    ]\n}",
@@ -58,10 +70,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://v2-api.trackpac.io/location-engine/resolve/wifi?api_key=XYZ",
+					"raw": "https://api.trackpac.io/location-engine/resolve/wifi",
 					"protocol": "https",
 					"host": [
-						"v2-api",
+						"api",
 						"trackpac",
 						"io"
 					],
@@ -69,12 +81,6 @@
 						"location-engine",
 						"resolve",
 						"wifi"
-					],
-					"query": [
-						{
-							"key": "api_key",
-							"value": "XYZ"
-						}
 					]
 				}
 			},

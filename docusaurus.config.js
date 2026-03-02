@@ -85,7 +85,7 @@ const config = {
             label: "Docs",
           },
           {
-            href: "https://v2.trackpac.io",
+            href: "https://app.trackpac.io",
             label: "Trackpac Login",
             position: "right",
           },
@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: "App Login",
-                href: "https://v2.trackpac.io",
+                href: "https://app.trackpac.io",
               },
               {
                 label: "GitHub",

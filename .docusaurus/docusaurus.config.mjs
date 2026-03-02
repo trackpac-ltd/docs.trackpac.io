@@ -38,11 +38,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/neilskoglund/docs.trackpac.io/sidebars.js",
+          "sidebarPath": "/Users/tobiasklaver/repos/trackpac/docs.trackpac.io/sidebars.js",
           "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/"
         },
         "theme": {
-          "customCss": "/Users/neilskoglund/docs.trackpac.io/src/css/custom.css"
+          "customCss": "/Users/tobiasklaver/repos/trackpac/docs.trackpac.io/src/css/custom.css"
         }
       }
     ]
@@ -63,7 +63,7 @@ export default {
           "label": "Docs"
         },
         {
-          "href": "https://v2.trackpac.io",
+          "href": "https://app.trackpac.io",
           "label": "Trackpac Login",
           "position": "right"
         }
@@ -104,7 +104,7 @@ export default {
             },
             {
               "label": "App Login",
-              "href": "https://v2.trackpac.io"
+              "href": "https://app.trackpac.io"
             },
             {
               "label": "GitHub",
@@ -113,7 +113,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Trackpac Ltd."
+      "copyright": "Copyright © 2026 Trackpac Ltd."
     },
     "prism": {
       "theme": {

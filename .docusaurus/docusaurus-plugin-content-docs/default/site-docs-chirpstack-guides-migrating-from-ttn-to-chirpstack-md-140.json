@@ -1,0 +1,20 @@
+{
+  "id": "chirpstack-guides/migrating-from-ttn-to-chirpstack",
+  "title": "Migrating a Sensor from TTN to ChirpStack",
+  "description": "Introduction",
+  "source": "@site/docs/chirpstack-guides/migrating-from-ttn-to-chirpstack.md",
+  "sourceDirName": "chirpstack-guides",
+  "slug": "/chirpstack-guides/migrating-from-ttn-to-chirpstack",
+  "permalink": "/docs/chirpstack-guides/migrating-from-ttn-to-chirpstack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/trackpac-ltd/docs.trackpac.io/tree/main/docs/chirpstack-guides/migrating-from-ttn-to-chirpstack.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Migrating a sensor from Helium Console to Chirpstack",
+    "permalink": "/docs/chirpstack-guides/migrating-from-helium-console"
+  }
+}

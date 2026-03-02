@@ -32,7 +32,7 @@ This option hosts the device on Trackpac's LNS. you will need the dev_eui, app_e
 
 If you wish to host the device yourself and forward the data to us, this is the option to pick. Choose the option to self-host and follow the guidelines to set up the device on your own LoRaWAN server.
 
-Ingest routes for devices can be found here: https://v2-api.trackpac.io/docs
+Ingest routes for devices can be found here: https://api.trackpac.io/docs
 
 ---
 

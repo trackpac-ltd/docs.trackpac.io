@@ -8,7 +8,7 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
 
 ### For First-Time Users:
 
-1. Navigate to the Trackpac portal: [https://v2.trackpac.io](https://v2.trackpac.io).
+1. Navigate to the Trackpac portal: [https://app.trackpac.io](https://app.trackpac.io).
 2. You have the option to sign in using social logins, or you can register with a username and password.
 
 ---
@@ -77,7 +77,7 @@ Easily integrate your SenseCAP T1000 with Trackpac using this comprehensive guid
    - **Enter Keys Manually**: Use the `dev_eui`, `app_eui`, and `app_key` you noted earlier.
    - **Self-Host**: Set up on your own LoRaWAN server and forward the data to us.
 
-   > For self-hosting, ingest routes can be found [here](https://v2-api.trackpac.io/docs).
+   > For self-hosting, ingest routes can be found [here](https://api.trackpac.io/docs).
 
 **Congratulations!** Your SenseCAP T1000 is now successfully integrated with Trackpac.
 
