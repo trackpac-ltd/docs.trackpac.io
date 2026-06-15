@@ -46,4 +46,4 @@ The OpenAPI spec for Trackpac's API is available at: [https://api.trackpac.io/op
 
 ---
 
-You can now test Trackpac API endpoints in Postman using your `X-API-Key` header. Bearer-token auth is still available for older integrations, but API keys are the preferred option for new setups.
+You can now test Trackpac API endpoints in Postman using your `X-API-Key` header.

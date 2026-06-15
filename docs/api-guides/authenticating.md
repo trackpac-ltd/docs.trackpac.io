@@ -42,38 +42,6 @@ curl --request GET \
   --header 'X-API-Key: YOUR_API_KEY'
 ```
 
-## Legacy: Use a Bearer Token
-
-Bearer-token authentication is still available for existing integrations, but new integrations should use API keys instead.
-
-```bash
-curl --request POST \
-  --url https://api.trackpac.io/user/login \
-  --header 'content-type: application/json' \
-  --data '{
-    "email": "YOUR_EMAIL",
-    "password": "YOUR_PASSWORD"
-  }'
-```
-
-Example response:
-
-```json
-{
-  "access_token": "ACCESS_TOKEN",
-  "expires_in": 86400,
-  "token_type": "Bearer"
-}
-```
-
-Use the returned token in the `Authorization` header:
-
-```bash
-curl --request GET \
-  --url https://api.trackpac.io/devices \
-  --header 'Authorization: Bearer ACCESS_TOKEN'
-```
-
 ## Security Notes
 
 - Treat API keys and bearer tokens like passwords.
