@@ -1,7 +1,5 @@
 # Meshtastic Gateway Setup
 
-> **Beta feature**: MQTT Credentials is a new beta feature. It's available to organisation owners, org admins, members with edit permissions, and Trackpac super admins. Reach out to us if you don't see it on your organisation yet.
-
 Trackpac can receive data from a [Meshtastic](https://meshtastic.org/) LoRa mesh directly over MQTT. One of your mesh nodes acts as a gateway, uplinking messages from the mesh to Trackpac's MQTT broker, where each node then appears as its own device.
 
 This guide covers creating MQTT credentials for your gateway, configuring the gateway itself, and adding your mesh nodes as devices.
