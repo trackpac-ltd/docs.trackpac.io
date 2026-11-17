@@ -4,6 +4,8 @@ Trackpac can receive data from a [Meshtastic](https://meshtastic.org/) LoRa mesh
 
 This guide covers creating MQTT credentials for your gateway, configuring the gateway itself, and adding your mesh nodes as devices.
 
+> **This only works within range of a gateway.** A node's data only reaches Trackpac if it can route through the mesh to an MQTT-connected gateway. Nodes that are too far from every gateway to be relayed — even if they're still talking to each other over LoRa — won't send data to Trackpac. Adding a node as a device doesn't extend the mesh's range; it just tells Trackpac to expect data from that node once a gateway can relay it.
+
 ---
 
 ## Hardware Requirements
