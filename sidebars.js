@@ -41,6 +41,7 @@ const sidebars = {
         "device-guides/rak-sticker-guide",
         "device-guides/sensecap-t1000",
         "device-guides/browan-tabs-object-locator-guide",
+        "device-guides/meshtastic-gateway-setup",
       ],
     },
     {
