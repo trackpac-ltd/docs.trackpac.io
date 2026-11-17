@@ -30,9 +30,9 @@ Each gateway needs its own set of MQTT credentials. Create one credential per ga
 
    ![MQTT Credentials page listing existing credentials](../assets/mqtt-credentials-list.png)
 
-4. **Give it a label**: Enter a label so you can identify which gateway this credential belongs to, for example "Neils House 1". You'll be reminded here that the gateway must be ESP32-based.
+4. **Give it a label**: Enter a label so you can identify which gateway this credential belongs to. You'll be reminded here that the gateway must be ESP32-based.
 
-   ![Create Credential dialog with the ESP32 hardware requirement](../assets/mqtt-credentials-create-dialog.png)
+   ![Create Credential dialog with the ESP32 hardware requirement and a label entered](../assets/mqtt-credentials-create-dialog.png)
 
 5. **Save the credentials immediately**: Trackpac generates and shows you the connection details for your gateway's MQTT module:
 
